@@ -1,0 +1,185 @@
+Stainless Steel Prices, Inventory & Insights in China from Dec 29th to Jan 11th 2026
+January 14 , 2026
+
+ 
+
+WEEKLY AVERAGE PRICES
+
+Weekly Average Prices (Updated on Jan 9th)
+
+Grade	Origin	Market	Average Price (US$/MT)	Price Difference (US$/MT)	Percentage (%)
+304/2B	ZPSS	Wuxi	2,160	79	4.01%
+Foshan	2,185	79	3.96%
+Hongwang	Wuxi	2,075	79	4.23%
+Foshan	2,070	67	3.58%
+304/NO.1	ESS	Wuxi	1,995	68	3.79%
+Foshan	2,000	67	3.70%
+316L/2B	TISCO	Wuxi	3,840	133	3.73%
+Foshan	3,810	90	2.51%
+316L/NO.1	ESS	Wuxi	3,605	103	3.06%
+Foshan	3,620	112	3.31%
+201J1/2B	Hongwang	Wuxi	1,305	21	1.82%
+Foshan	1,305	19	1.66%
+J5/2B	Hongwang	Wuxi	1,190	21	2.02%
+Foshan	1,190	18	1.71%
+430/2B	TISCO	Wuxi	1,215	3	0.26%
+Foshan	1,210	7	0.66%
+
+ 
+
+ 
+
+ 
+
+TREND | Stainless Steel Spiked Then Eased Back
+
+
+From January 5 to January 9, 2026, during the period from the beginning of the week to Wednesday, metal futures collectively strengthened, driven by both a recovery in macro sentiment and disturbances in the geopolitical situation. The nickel market took the lead in experiencing a strong rally. Compounded by expectations of supply tightening due to a significant reduction in Indonesian nickel ore quotas for 2026, LME nickel and SHFE nickel prices rose continuously. This directly drove a strong pull-up in the stainless steel futures market, with the main contract rising from US$1884/MT at the beginning of the week to US$2038/MT, a cumulative increase of over 8%. However, the market situation took a sharp turn on Thursday (January 8). LME nickel inventories surged by 20,088 tons in a single day, an increase of 7.8%, which directly shattered market expectations of a nickel supply shortage. Coupled with the fact that the previous rise in nickel prices was excessive and clearly detached from fundamentals and actual transactions, the concentrated exit of profit-taking positions triggered a major plunge in nickel prices; the SHFE nickel main contract fell by more than 6% in a single day. Dragged down by this, the stainless steel futures market corrected simultaneously, giving back some of the earlier gains. The spot market followed suit quickly, with the price of cold-rolled stainless steel 304 rapidly falling to a gross base of US$2040/MT, before prices rose again by US$29 on Friday. The intensity of price fluctuations has left the market in a gambling stalemate.
+
+ 
+
+ 
+
+In general, stainless steel futures rose and then fell back. As of the close on Friday (January 9), the main stainless steel 2603 contract was reported at US$1997/MT, up US$106/MT, a weekly increase of 5.60%. The main SHFE nickel contract rose 4.70% during the week to US$20041/MT.
+
+ 
+
+ 
+
+ 
+
+INVENTORY | Slight increase of 1,400 tons, transactions fail to keep up
+
+
+According to statistics on January 8, the total stainless steel inventory of sample warehouses in Wuxi for this period increased by 1,400 tons month-on-month! Indonesian nickel ore policies influenced market sentiment, causing both nickel and stainless steel markets to climb and igniting a price-increase rally. However, the demand side remained somewhat cautious, and transactions failed to keep pace with the upward rhythm, resulting in a slight accumulation of total inventory.
+
+ 
+
+Inventory in Wuxi sample warehouse (Unit: tons)	200 series	300 series	400 series	Total
+Dec 31st	47,000	370,633	113,652	531,285
+Jan 8th	47,324	367,847	117,535	532,706
+Difference	324	-2,786	3,883	1,421
+
+ 
+
+ 
+
+Stainless steel 300 Series: Spot prices rise sharply with firm sentiment, mild destocking of cold and hot rolling
+
+
+Last week, arrivals from private steel mills such as Delong and Beigang decreased, and the circulation of spot resources in the market was tight, with the inventory depletion rate remaining relatively stable. Some downstream terminal factories carried out routine stockpiling in early January to prepare for the Spring Festival holiday. With the previous production reduction plans of steel mills coming to fruition, market spot resources are tight; combined with high price levels, a merchant mindset of being reluctant to sell prevails. Moving forward, it is necessary to focus on the transaction situation of downstream sectors before the Spring Festival.
+
+ 
+
+Stainless steel 200 Series: Downstream waits and sees after a rapid rally, inventory rises for cold and falls for hot
+
+
+Looking at the spot inventory structure, arrivals from steel mills like Beigang New Material remained at a low level, and market supply pressure eased. However, the large price increase caused downstream purchasing to lean toward cautious observation. Transactions at high price levels were poor, leading to a trace accumulation of cold-rolled inventory.
+
+ 
+
+Stainless steel 400 Series: High-price transactions under pressure, inventory depletion hindered
+
+
+Looking at the spot inventory structure, Jiuquan Steel resources arrived in concentration during the holiday period, and the front-end inventory of steel mills increased significantly. During the week, the surge in the futures market drove an active trading atmosphere in the spot market, and downstream willingness to restock strengthened. However, as spot prices followed with slight increases, downstream acceptance of high-priced resources was limited. High-price transactions were weak, and the overall inventory digestion rhythm was relatively slow.
+
+
+In January, 400-series steel mills maintained a low production schedule. Market supply pressure may ease in the later period. Additionally, as the end of the year approaches, downstream stockpiling demand is expected to be released gradually, and the supply-demand pattern may improve. It is expected that 430 prices will mainly run strong in the short term. Later, the focus will be on changes in steel mill production schedules and actual market transaction conditions.
+
+ 
+
+ 
+
+RAW MATERIAL | Indonesia's nickel production expected to decrease by 200,000–300,000 tons
+
+
+Since mid-December last year, nickel prices have cumulatively risen by nearly 30%. Transaction prices for high-nickel pig iron have risen sharply; recently, the high-nickel pig iron procurement price of some steel mills was US$141/nickel point, or even US$145/nickel point. Driven by the recent sharp rise in nickel prices, spot market sentiment rose simultaneously, and some suppliers raised their quotes significantly.
+
+
+The main reason is that policy changes in Indonesia reversed the market's pessimistic expectations. Indonesia currently controls 70% of the global nickel ore mining supply, and its production restriction policies directly dominate the global nickel element supply rhythm. The Indonesian Nickel Miners Association (RKAB) revealed that the nickel ore production proposed in the 2026 work plan and budget may be approximately 250 million tons, a decrease of more than 30% compared to the 379-million-ton production target in the 2025 RKAB. Market calculations suggest that if this quota is strictly implemented, a supply gap of approximately 77 million tons will appear.
+
+
+Secondly, news during the New Year's Day holiday indicated that Vale Indonesia suspended nickel mining because its 2026 production plan had not been approved by the government, which strengthened market confidence in the intensity of quota implementation.
+
+
+Furthermore, according to a circular policy document issued by the Indonesian Ministry of Energy and Mineral Resources (ESDM), for mining companies that requested adjustments to the 2026 RKAB through the information system but had not received approval by the end of the previous year, the originally approved 2026 RKAB can still serve as the legal basis for exploration and production operations, valid until March 31, 2026. During the transition period, enterprises can carry out mining activities, but the scale must not exceed 25% of the originally approved 2026 production plan. Although production does not stop, the "production must not exceed 25%" is a hard constraint. This means a large number of mining companies will be forced to significantly reduce production in the first quarter. Such widespread production limits will inevitably lead to a significant contraction in the actual supply of nickel ore in the first quarter, providing solid bottom support for nickel prices.
+
+
+Finally, according to previous reports by the International Nickel Study Group (INSG), global nickel market demand is expected to reach 3.82 million tons and nickel production to reach 4.09 million tons in 2026. According to institutional calculations, Indonesia's nickel production is expected to decrease by 200,000–300,000 tons, which may lead to a reversal of nickel supply and demand in 2026. Against the backdrop where nickel prices have already undergone a deep correction, and valuations have been compressed to historical lows, the market is extremely sensitive to any potential disturbance signals on the supply side, which in turn caused a rapid rebound in prices.
+
+ 
+
+ 
+
+SUMMARY | Stainless steel production scheduling is the key factor for price trends
+
+
+Although stainless steel prices have risen all the way, rapid price changes are not always conducive to reaching transactions; some buyers will be more cautious, especially since market demand is currently in a moderate state. Overall, the production schedules of steel mills and the enthusiasm of buyers before the Spring Festival will be the fundamental drivers of price changes.
+
+
+Stainless steel 304: Generally speaking, after experiencing a limit-up in futures prices followed by a fallback, spot prices also fell slightly after rising all the way. Due to the rise in nickel prices and the depletion of stainless steel inventory, spot prices may maintain narrow fluctuations in the short term. Close attention needs to be paid to the pace of downstream terminal demand release and the implementation of nickel market news.
+
+
+Stainless steel 201: On the raw material side, after copper prices previously rose to an all-time high and manganese prices rose to a three-year high, they continued to correct, but the costs of stainless steel 201 remain in a high-level range. After the rise in spot prices, the production volume of the 200 series in steel mills rebounded slightly month-on-month in January. However, downstream demand is still difficult to break through, and after the rally, it has further turned into a wait-and-see state. In the short term, Stainless steel 201 prices will mainly remain stable. It is expected that the 201J2/J5 cold-rolled gross base price will run in the range of US$1008-US$1015/MT.
+
+
+Stainless steel 430: Overall, although the current inventory of stainless steel 400-series has accumulated slightly compared to the previous period, it is still at a low level for the same period. Additionally, steel mill production scheduling for January is maintained at a low level, so supply-side pressure is relatively limited. Combined with the rise in high-chromium prices pushing up production costs, the support at the price bottom has strengthened. As the end of the year approaches, downstream stockpiling demand is expected to be released gradually, and the market supply-demand structure may see improvement. It is expected that 430 prices will continue their strong trend in the short term. 
+
+ 
+
+ 
+
+SEA FREIGHT | Freight Rates Continued a Downward Trend
+
+
+On January 9th, the Shanghai Containerized Freight Index (SCFI) fell 0.5% at 1647.39 points.
+
+ 
+
+ 
+
+ Europe/ Mediterranean: 
+On January 9th, the freight rate (maritime and marine surcharge) exported from Shanghai Port to the European major ports was US$1719/TEU, which increased by 1.7%. The freight rate (shipping and shipping surcharges) for exports from Shanghai Port to the Mediterranean major ports market was US$3232/TEU, which was up by 2.8% from the previous week.
+
+ 
+
+ North America: 
+On January 9th, the freight rates (shipping and shipping surcharges) for exports from Shanghai Port to the US West and US East major ports were US$2218/FEU and US$3128/FEU, reporting 1.4% and 3.1% gain accordingly. 
+
+
+ The Persian Gulf and the Red Sea:  
+On January 9th, the freight rate (maritime and marine surcharges) exported from Shanghai Port to the major ports of the Persian Gulf gained 6.6% to US$1981/TEU.
+
+
+ Australia & New Zealand:  
+On January 9th, the freight rate (shipping and shipping surcharges) for exports from Shanghai Port to the major ports of Australia and New Zealand decreased by 4.8% to US$1281/TEU.
+
+
+ South America: 
+On January 9th, the freight rate (shipping and shipping surcharges) for exports from Shanghai Port to South American major ports fell by 6.5% to US$1208/TEU. 
+
+ 
+
+2025 total US container imports drop to 28.1 million TEU
+
+
+Affected by the continuous decline in imports from China, US container import volumes saw a significant fall in December 2025. The latest data released by trade data provider Descartes shows that US container import volumes fell 5.9% year-on-year in December 2025, and the cumulative import volume for the whole year decreased by 0.4% compared to 2024.
+
+
+In December 2025, the total US container import volume was approximately 2.2 million TEU (twenty-foot equivalent units), with a cumulative annual total of approximately 28.1 million TEU. Earlier in early 2025, due to concerns that US President Trump might impose additional tariffs on a large number of goods, including those from China, retailers and importers stocked up in advance, and US import volumes once grew by approximately 10% year-on-year.
+
+
+However, as import volumes continued to fall in the latter part of the year, this increase was completely offset, even though the Trump administration subsequently withdrew or delayed some tariff measures involving goods such as Chinese furniture and Italian pasta.
+
+
+From the perspective of source countries, US container imports from China fell sharply by 21.8% year-on-year in December 2025. During the same period, imports from India, Taiwan, South Korea, and Italy also declined. Although imports from Thailand, Vietnam, Indonesia, Japan, and Hong Kong grew, they were still insufficient to compensate for the overall decline.
+
+
+Although US container import volumes in December 2025 grew slightly by 2% month-on-month compared to November, reaching approximately 2.23 million TEU, the total for the whole year still fell by 0.4% compared to 2024. Meanwhile, the structure of US imports continued to change, with China's share of US container imports falling further. In December 2025, China accounted for only 31.7% of total US container imports, the lowest level for the same period in nearly six years.
+In contrast, the US accelerated its pace of procurement from the Southeast Asian region. Among them, Vietnam's container exports to the US grew 21.5% year-on-year, Thailand grew 28.3%, and Indonesia grew 19.6%, becoming important alternative sources to China.
+
+ 
+
+ 
+
+ 

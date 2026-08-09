@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --color-brand-dark: #0D141B;
+  --color-brand-accent: #F6D044;
+  --color-brand-accent-hover: #E5BF2E;
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-text-light: #7C8794;
+  --color-border: #E5E7EB;
+  --color-bg-light: #F9FAFB;
+  --color-bg-white: #FFFFFF;
+
+  /* Editorial palette — KB articles, ExpertBioCard, trust panels */
+  --color-warm-cream: #fbf9f4;
+  --color-warm-cream-deep: #f5f2eb;
+  --color-warm-cream-light: #fcfcfa;
+  --color-editorial-link: #36526B;
+  --color-editorial-ink: #243647;
+  --color-editorial-pre: #f7f4ee;
+
+  /* Cream surface system — 4-tier semantic scale
+   * cream-50:  lightest (table hover, near-white panels)
+   * cream-100: light cream (alternating section bg, soft cards)
+   * cream-200: warm cream (page-level bg, accent stripes)
+   * cream-300: deep cream (emphasis bands, callouts) */
+  --color-cream-50: #fcfaf6;
+  --color-cream-100: #fbf9f4;
+  --color-cream-200: #f6f0e5;
+  --color-cream-300: #efe6d7;
+
+  /* Cream border system — 2-tier scale
+   * cream-border:      primary cream border (cards, panels)
+   * cream-border-soft: lighter cream border (subtle dividers, hover states) */
+  --color-cream-border: #ddd6c8;
+  --color-cream-border-soft: #e5dcc9;
+
+  /* Card radius scale — 3-tier, consolidates ad-hoc rem/px values.
+   * Prefixed `card-` to avoid colliding with Tailwind defaults
+   * (rounded-md/lg/xl which are 0.375 / 0.5 / 0.75 rem). */
+  --radius-card-sm: 0.75rem;
+  --radius-card-md: 1rem;
+  --radius-card-lg: 1.25rem;
+
+  /* Low-saturation metallic copper — credential/verified accent
+   * (separates buy energy [yellow] from authority energy [copper]) */
+  --color-copper: #B8845A;
+  --color-copper-soft: #C9A081;
+  --color-copper-deep: #8E5F3E;
+
+  /* Warm grey alternative for editorial body text */
+  --color-text-warm: #6E6358;
+
+  --font-sans: "Segoe UI", "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-bg-white);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #F6D04440;
+}
+
+@media (max-width: 639px) {
+  .article-table--cards {
+    border-top: 1px solid #d8dee8;
+    border-bottom: 1px solid #d8dee8;
+    overflow: visible;
+  }
+
+  .article-table--cards table,
+  .article-table--cards thead,
+  .article-table--cards tbody,
+  .article-table--cards tr,
+  .article-table--cards th,
+  .article-table--cards td {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .article-table--cards thead {
+    display: none;
+  }
+
+  .article-table--cards tr {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .article-table--cards tr:last-child {
+    border-bottom: 0;
+  }
+
+  .article-table--cards td {
+    display: grid;
+    grid-template-columns: minmax(7.25rem, 38%) 1fr;
+    gap: 1rem;
+    border-bottom: 0;
+    padding: 0.32rem 0;
+  }
+
+  .article-table--cards td::before {
+    content: attr(data-label);
+    color: #7d8ca3;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.45;
+    text-transform: uppercase;
+  }
+}
+
+/* Article table — soft zebra striping for stronger row rhythm */
+@media (min-width: 640px) {
+  .prose tbody tr:nth-child(even) td {
+    background-color: rgba(248, 246, 240, 0.55);
+  }
+  .prose tbody tr:hover td {
+    background-color: rgba(246, 208, 68, 0.06);
+  }
+}

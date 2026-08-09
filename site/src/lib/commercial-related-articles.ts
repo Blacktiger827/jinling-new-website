@@ -1,0 +1,1 @@
+export const SHOW_COMMERCIAL_RELATED_ARTICLES = false;

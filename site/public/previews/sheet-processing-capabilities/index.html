@@ -1,0 +1,250 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sheet Processing Capabilities Preview</title>
+  <style>
+    :root {
+      --ink: #101820;
+      --muted: #5f6872;
+      --line: #d8cbb8;
+      --paper: #fbf8f0;
+      --cream: #fffdf8;
+      --gold: #f6d044;
+      --gold-deep: #8a6b32;
+      --charcoal: #0d141b;
+      --charcoal-2: #111820;
+      --rust: #b8845a;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9e4da;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    a { color: inherit; text-decoration: none; }
+    .page-note {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: .75rem 1rem;
+      border-bottom: 1px solid rgba(16,24,32,.12);
+      background: rgba(255,253,248,.92);
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: .82rem;
+      backdrop-filter: blur(12px);
+    }
+    .preview {
+      min-height: 50vh;
+      padding: clamp(2rem, 4vw, 3.25rem) clamp(1rem, 3vw, 2.5rem);
+    }
+    .inner { max-width: 1160px; margin: 0 auto; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: .65rem;
+      color: var(--gold-deep);
+      font-family: Arial, sans-serif;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .tag::after { content: ""; width: 2.75rem; height: 2px; background: currentColor; opacity: .55; }
+    h1, h2, h3, p { margin: 0; }
+    .heading-row {
+      display: grid;
+      grid-template-columns: minmax(0, .82fr) minmax(18rem, .58fr);
+      gap: clamp(1.5rem, 4vw, 4rem);
+      align-items: end;
+      margin-bottom: 1.45rem;
+    }
+    .title {
+      margin-top: .55rem;
+      max-width: 780px;
+      font-size: clamp(2rem, 4.2vw, 3.45rem);
+      line-height: .98;
+      letter-spacing: -.02em;
+      font-weight: 650;
+    }
+    .desc {
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: .95rem;
+      line-height: 1.75;
+    }
+    .card-title { font-size: 1.02rem; line-height: 1.2; font-weight: 650; }
+    .card-copy { font-family: Arial, sans-serif; font-size: .78rem; line-height: 1.55; }
+    .media { position: relative; overflow: hidden; background: #111; }
+    .media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .55s ease, opacity .55s ease; }
+    .cap-card:hover img { transform: scale(1.045); }
+
+    .option-a { background: #fffdf8; }
+    .a-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+    .a-card {
+      position: relative;
+      min-height: 17.5rem;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--charcoal);
+      color: white;
+      box-shadow: 0 18px 40px rgba(16,24,32,.08);
+    }
+    .a-card .media { position: absolute; inset: 0; }
+    .a-card .media img { opacity: .72; }
+    .a-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(13,20,27,.05) 0%, rgba(13,20,27,.62) 58%, rgba(13,20,27,.94) 100%);
+    }
+    .a-content { position: absolute; inset: auto 0 0 0; z-index: 1; padding: 1rem; }
+    .a-index { font-family: Arial, sans-serif; font-size: .7rem; font-weight: 700; color: var(--gold); letter-spacing: .16em; text-transform: uppercase; }
+    .a-card .card-copy { margin-top: .55rem; color: rgba(255,255,255,.76); }
+    .a-arrow { margin-top: .85rem; font-family: Arial, sans-serif; font-size: .78rem; font-weight: 700; color: var(--gold); }
+
+    .option-b { background: var(--charcoal); color: white; }
+    .option-b .tag { color: var(--gold); }
+    .option-b .desc { color: rgba(255,255,255,.72); }
+    .b-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .7rem; align-items: stretch; }
+    .b-card {
+      grid-column: span 2;
+      display: grid;
+      grid-template-rows: 10.5rem 1fr;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 8px;
+      background: #111111;
+      box-shadow: 0 18px 48px rgba(0,0,0,.24);
+    }
+    .b-card:nth-child(1), .b-card:nth-child(2) { grid-column: span 3; }
+    .b-topbar {
+      display: grid;
+      grid-template-columns: 3rem 1fr;
+      min-height: 2.6rem;
+      border-bottom: 1px solid rgba(246,208,68,.3);
+      background: var(--gold);
+      color: var(--ink);
+      font-family: Arial, sans-serif;
+    }
+    .b-number { display: flex; align-items: center; justify-content: center; background: #111; color: var(--gold); font-size: 1.45rem; font-weight: 800; }
+    .b-label { display: flex; align-items: center; padding: 0 .8rem; font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .b-card .media { height: 100%; border-bottom: 1px solid rgba(255,255,255,.12); }
+    .b-body { padding: .85rem .95rem 1rem; }
+    .b-card .card-copy { margin-top: .5rem; color: rgba(255,255,255,.7); }
+
+    .option-c { background: var(--paper); }
+    .c-shell {
+      display: grid;
+      grid-template-columns: minmax(17rem, .42fr) minmax(0, .88fr);
+      gap: 1.1rem;
+      align-items: stretch;
+    }
+    .c-intro {
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--cream);
+      box-shadow: 0 16px 38px rgba(16,24,32,.07);
+    }
+    .c-intro .title { font-size: clamp(2rem, 3.6vw, 3rem); }
+    .c-intro .desc { margin-top: 1rem; }
+    .c-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+    .c-card {
+      display: grid;
+      grid-template-columns: 42% 1fr;
+      min-height: 9.7rem;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: white;
+      box-shadow: 0 12px 28px rgba(16,24,32,.055);
+    }
+    .c-card .media { min-height: 9.7rem; }
+    .c-text { display: flex; flex-direction: column; justify-content: center; padding: .9rem; }
+    .c-kicker { margin-bottom: .4rem; color: var(--gold-deep); font-family: Arial, sans-serif; font-size: .66rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .c-card .card-copy { margin-top: .5rem; color: var(--muted); }
+    .c-link { margin-top: .75rem; color: var(--rust); font-family: Arial, sans-serif; font-size: .72rem; font-weight: 800; }
+
+    @media (max-width: 900px) {
+      .heading-row, .c-shell { grid-template-columns: 1fr; }
+      .a-grid, .c-list { grid-template-columns: 1fr; }
+      .b-grid { grid-template-columns: 1fr; }
+      .b-card, .b-card:nth-child(1), .b-card:nth-child(2) { grid-column: auto; }
+      .c-card { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-note">
+    <span>Sheet page module preview only. Pick Option A / B / C before we modify the live page.</span>
+    <span>Inspired by Ulbrich-style image capability cards, adapted to Jinling sheet processing.</span>
+  </div>
+
+  <section class="preview option-a">
+    <div class="inner">
+      <div class="heading-row">
+        <div>
+          <div class="tag">Option A · Image Card Grid</div>
+          <h2 class="title">Processing capabilities</h2>
+        </div>
+        <p class="desc">Explore stainless steel sheet processing capabilities for custom sheet finishing, cut-to-length panels, precision slitting, protective coating, protective film, and export packaging. Built for buyers who need stainless steel sheet supply, surface protection, flatness control, fast delivery, and fabrication-ready release from one Foshan processor.</p>
+      </div>
+      <div class="a-grid">
+        <a class="cap-card a-card" href="/solutions/capabilities/surface-finish-capability"><div class="media"><img src="/images/capabilities/surface-finishing/hero.webp" alt="Surface finishing for stainless steel sheet"></div><div class="a-content"><div class="a-index">01</div><h3 class="card-title">Surface Finishing</h3><p class="card-copy">Mirror, AFP, No.4, hairline, 2B, and BA routes for visible stainless steel sheet faces.</p><div class="a-arrow">Open capability</div></div></a>
+        <a class="cap-card a-card" href="/solutions/capabilities/cut-to-length"><div class="media"><img src="/images/capabilities/cut-to-length/hero.webp" alt="Cut-to-length stainless steel sheet panels"></div><div class="a-content"><div class="a-index">02</div><h3 class="card-title">Cut-to-Length</h3><p class="card-copy">Custom sheet size, flatness, tolerance, and panel release for laser cutting and fabrication.</p><div class="a-arrow">Open capability</div></div></a>
+        <a class="cap-card a-card" href="/solutions/capabilities/slitting-edging"><div class="media"><img src="/images/capabilities/slitting-edging/hero.webp" alt="Precision slitting and edging for stainless strip"></div><div class="a-content"><div class="a-index">03</div><h3 class="card-title">Slitting & Edging</h3><p class="card-copy">Slit width control, burr management, and edge condition for downstream forming or tube feed.</p><div class="a-arrow">Open capability</div></div></a>
+        <a class="cap-card a-card" href="/solutions/capabilities/protective-coating"><div class="media"><img src="/images/capabilities/protective-coating/hero.webp" alt="Protective coating for stainless steel sheets"></div><div class="a-content"><div class="a-index">04</div><h3 class="card-title">Protective Coating</h3><p class="card-copy">AFP and coating stack review for fingerprint resistance, cleaning, and visible-panel durability.</p><div class="a-arrow">Open capability</div></div></a>
+        <a class="cap-card a-card" href="/solutions/capabilities/protective-film"><div class="media"><img src="/images/capabilities/protective-film/hero.webp" alt="Protective film for stainless steel sheet surface"></div><div class="a-content"><div class="a-index">05</div><h3 class="card-title">Protective Film</h3><p class="card-copy">Laser PVC, PE, AFP-compatible film, and handling protection matched to the sheet finish.</p><div class="a-arrow">Open capability</div></div></a>
+        <a class="cap-card a-card" href="/solutions/capabilities/packaging-logistics"><div class="media"><img src="/images/capabilities/packaging-logistics/hero.webp" alt="Export packaging and logistics for stainless steel sheets"></div><div class="a-content"><div class="a-index">06</div><h3 class="card-title">Packaging & Logistics</h3><p class="card-copy">Export packing, pallet logic, labels, loading photos, and arrival protection for sheet orders.</p><div class="a-arrow">Open capability</div></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="preview option-b">
+    <div class="inner">
+      <div class="heading-row">
+        <div>
+          <div class="tag">Option B · Black Gold Matrix</div>
+          <h2 class="title">Processing capabilities</h2>
+        </div>
+        <p class="desc">One stainless steel sheet supplier route for surface finishing, cut-to-length service, precision slitting, anti-fingerprint coating, protective film application, and export packaging. Designed for OEM sheet fabrication, decorative stainless panels, laser-cut blanks, and fast delivery projects that need controlled release.</p>
+      </div>
+      <div class="b-grid">
+        <a class="cap-card b-card" href="/solutions/capabilities/surface-finish-capability"><div class="b-topbar"><span class="b-number">1</span><span class="b-label">Surface Finishing</span></div><div class="media"><img src="/images/capabilities/surface-finishing/gallery-1.webp" alt="Surface finishing"></div><div class="b-body"><h3 class="card-title">Finish route before release</h3><p class="card-copy">Mirror polish, brushed grain, AFP, BA, and 2B decisions stay tied to substrate and film.</p></div></a>
+        <a class="cap-card b-card" href="/solutions/capabilities/cut-to-length"><div class="b-topbar"><span class="b-number">2</span><span class="b-label">Cut-to-Length</span></div><div class="media"><img src="/images/capabilities/cut-to-length/gallery-1.webp" alt="Cut-to-length"></div><div class="b-body"><h3 class="card-title">Flat panels, cleaner fabrication</h3><p class="card-copy">Custom dimensions, tolerance, and flatness for stainless sheet blanks and plate orders.</p></div></a>
+        <a class="cap-card b-card" href="/solutions/capabilities/slitting-edging"><div class="b-topbar"><span class="b-number">3</span><span class="b-label">Slitting & Edging</span></div><div class="media"><img src="/images/capabilities/slitting-edging/gallery-1.webp" alt="Slitting and edging"></div><div class="b-body"><h3 class="card-title">Width and edge control</h3><p class="card-copy">Precision slit strip, edge condition, burr control, and feed stability for downstream lines.</p></div></a>
+        <a class="cap-card b-card" href="/solutions/capabilities/protective-coating"><div class="b-topbar"><span class="b-number">4</span><span class="b-label">Protective Coating</span></div><div class="media"><img src="/images/capabilities/protective-coating/gallery-1.webp" alt="Protective coating"></div><div class="b-body"><h3 class="card-title">Coating stack control</h3><p class="card-copy">Anti-fingerprint and decorative coating choices aligned with base finish and sample approval.</p></div></a>
+        <a class="cap-card b-card" href="/solutions/capabilities/protective-film"><div class="b-topbar"><span class="b-number">5</span><span class="b-label">Protective Film</span></div><div class="media"><img src="/images/capabilities/protective-film/gallery-1.webp" alt="Protective film"></div><div class="b-body"><h3 class="card-title">Film selected for the process</h3><p class="card-copy">Laser, PE, and AFP-compatible film routes keep visible stainless sheet protected.</p></div></a>
+        <a class="cap-card b-card" href="/solutions/capabilities/packaging-logistics"><div class="b-topbar"><span class="b-number">6</span><span class="b-label">Packaging & Logistics</span></div><div class="media"><img src="/images/capabilities/packaging-logistics/gallery-1.webp" alt="Packaging and logistics"></div><div class="b-body"><h3 class="card-title">Export-ready arrival condition</h3><p class="card-copy">Packing, labels, moisture control, loading checks, and delivery evidence for sheet export.</p></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="preview option-c">
+    <div class="inner c-shell">
+      <div class="c-intro">
+        <div class="tag">Option C · Editorial Route Desk</div>
+        <h2 class="title">Processing capabilities</h2>
+        <p class="desc">Move from stainless steel sheet specification into the real processing route: custom surface finishing, cut-to-size sheet supply, slitting and edging, protective coating, protective film, and export packaging. This layout is quieter and more procurement-focused for buyers comparing reliable stainless steel sheet processing in China.</p>
+      </div>
+      <div class="c-list">
+        <a class="cap-card c-card" href="/solutions/capabilities/surface-finish-capability"><div class="media"><img src="/images/capabilities/surface-finishing/hero.webp" alt="Surface finishing"></div><div class="c-text"><div class="c-kicker">Visible face</div><h3 class="card-title">Surface Finishing</h3><p class="card-copy">Mirror, AFP, brushed, hairline, BA, and 2B sheet finish routes.</p><div class="c-link">Review route</div></div></a>
+        <a class="cap-card c-card" href="/solutions/capabilities/cut-to-length"><div class="media"><img src="/images/capabilities/cut-to-length/hero.webp" alt="Cut-to-length"></div><div class="c-text"><div class="c-kicker">Panel size</div><h3 class="card-title">Cut-to-Length</h3><p class="card-copy">Sheet and plate cut size, flatness, tolerance, and fabrication release.</p><div class="c-link">Review route</div></div></a>
+        <a class="cap-card c-card" href="/solutions/capabilities/slitting-edging"><div class="media"><img src="/images/capabilities/slitting-edging/hero.webp" alt="Slitting and edging"></div><div class="c-text"><div class="c-kicker">Edge quality</div><h3 class="card-title">Slitting & Edging</h3><p class="card-copy">Width control, edge condition, burr control, and slit strip planning.</p><div class="c-link">Review route</div></div></a>
+        <a class="cap-card c-card" href="/solutions/capabilities/protective-coating"><div class="media"><img src="/images/capabilities/protective-coating/hero.webp" alt="Protective coating"></div><div class="c-text"><div class="c-kicker">Coating stack</div><h3 class="card-title">Protective Coating</h3><p class="card-copy">AFP coating, finish compatibility, cleaning behavior, and lot control.</p><div class="c-link">Review route</div></div></a>
+        <a class="cap-card c-card" href="/solutions/capabilities/protective-film"><div class="media"><img src="/images/capabilities/protective-film/hero.webp" alt="Protective film"></div><div class="c-text"><div class="c-kicker">Surface protection</div><h3 class="card-title">Protective Film</h3><p class="card-copy">Film choice for laser cutting, handling, AFP surfaces, and visible panels.</p><div class="c-link">Review route</div></div></a>
+        <a class="cap-card c-card" href="/solutions/capabilities/packaging-logistics"><div class="media"><img src="/images/capabilities/packaging-logistics/hero.webp" alt="Packaging and logistics"></div><div class="c-text"><div class="c-kicker">Export release</div><h3 class="card-title">Packaging & Logistics</h3><p class="card-copy">Pallets, labels, container loading, delivery evidence, and arrival condition.</p><div class="c-link">Review route</div></div></a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,105 @@
+﻿---
+title: "Stainless Steel Prices, Inventory & Insights in China from Jan 12th to Jan 25th 2026"
+seoTitle: "Stainless Steel Prices, Inventory & Insights in China from Jan 12th to Jan 25th 2026 | Jinling Metals"
+description: "Last week, stainless steel prices in the Wuxi market ran on the stronger side. During the week, stainless steel futures prices rose alongside an increase in open interest, though the momentum for market transactions appe"
+author: "Jinling Steel Editorial Team"
+reviewedBy: "Jinling Steel Market Review Team"
+publishedAt: "2026-01-28"
+heroImage: "/images/insights/stainless-steel-prices-inventory-insights-in-china-from-jan-12th-to-jan-25th-2026/cover-260128.jpg"
+---
+# Stainless Steel Prices, Inventory & Insights in China from Jan 12th to Jan 25th 2026
+
+## WEEKLY AVERAGE PRICES
+
+| Weekly Average Prices (Updated on Jan 23rd) |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- |
+| Grade | Origin | Market | Average Price (US$/MT) | Price Difference (US$/MT) | Percentage (%) |
+| 304/2B | ZPSS | Wuxi | 2,255 | 32 | 1.51% |
+|  |  | Foshan | 2,285 | 32 | 1.49% |
+|  | Hongwang | Wuxi | 2,190 | 50 | 2.50% |
+|  |  | Foshan | 2,180 | 43 | 2.14% |
+| 304/NO.1 | ESS | Wuxi | 2,105 | 49 | 2.54% |
+|  |  | Foshan | 2,120 | 48 | 2.44% |
+| 316L/2B | TISCO | Wuxi | 3,985 | 55 | 1.44% |
+|  |  | Foshan | 3,995 | 66 | 1.75% |
+| 316L/NO.1 | ESS | Wuxi | 3,810 | 92 | 2.58% |
+|  |  | Foshan | 3,795 | 99 | 2.79% |
+| 201J1/2B | Hongwang | Wuxi | 1,330 | 3 | 0.24% |
+|  |  | Foshan | 1,350 | 23 | 1.90% |
+| J5/2B | Hongwang | Wuxi | 1,215 | 3 | 0.26% |
+|  |  | Foshan | 1,220 | 10 | 0.92% |
+| 430/2B | TISCO | Wuxi | 1,235 | 7 | 0.65% |
+|  |  | Foshan | 1,240 | 12 | 1.04% |
+
+## TREND | Stainless steel Futures and Spot Prices Continue to Rise
+
+Last week, stainless steel prices in the Wuxi market ran on the stronger side. During the week, stainless steel futures prices rose alongside an increase in open interest, though the momentum for market transactions appeared insufficient. As of this Friday, the price of the main stainless steel contract rose by **US$65/MT** from last week to **US$2245/MT** , an increase of **3.15%** . The following is a look at last week's market performance and the outlook for the future market.
+
+![Price inventory chart 1](/images/insights/stainless-steel-prices-inventory-insights-in-china-from-jan-12th-to-jan-25th-2026/image-01.png)
+
+## COO Indonesia: Tsingshan Indonesia Raises stainless steel 304 Export Quotes for the Fourth Time This Month
+
+On January 26th, stainless steel futures rose by **0.51%** to close at **US$2245/MT** . **Tsingshan** **Indonesia once again raised its export quotes—the export quote for stainless steel 304 was increased by $30/MT.** This marks the fourth consecutive price hike in January 2026, with a cumulative increase of **$180/MT** within one month.
+
+## Stainless steel 300 Series: Accumulated Short Positions Trigger Futures Rise
+
+Prices for cold and hot rolled stainless steel 304 ran stronger last week. As of Friday, the mainstream base price for four-foot cold-rolled stainless steel 304 in the Wuxi area was reported at US$2160/MT, up US$22 from the previous Friday; the price for hot-rolled stainless steel was reported at US$2120/MT, up US$22 from the previous Friday. At the beginning of the week, the futures market fluctuated within a narrow range, and spot prices were quoted in between US$2125-US$2140/MT. Private steel mills opened with locked prices, and the overall market sentiment for supporting prices was strong. Subsequently, accumulated short positions in the market triggered an increase in futures open interest and prices. This, combined with a shortage of spot goods and low warehouse receipts, provided substantive support for near-month contracts, leading to a "short squeeze" in the market and causing spot prices to continue rising.
+
+## Stainless steel 200 Series: Spot Price Follows Market Fluctuations
+
+During the week, stainless steel 201 prices showed mixed movements. At the beginning of the week, the market weakened slightly, and cold rolled stainless steel 201J2 quotes gradually dropped to around the US$1180/MT. Market sentiment was later bolstered by steel mills raising March futures prices and a rapid pull-up in the stainless steel market; by Wednesday afternoon, trader quotes stood firm at the US$1195/MT. Frequent price fluctuations in the short term have intensified the wait-and-see attitude of downstream buyers.
+
+## Stainless steel 400 Series: Market Sentiment Recovers
+
+Last week, stainless steel 430 prices remained stable with a leaning toward strength. As of last Friday, state-owned cold rolled stainless steel 430 quotes in the Wuxi spot market were US$1240/MT, and state-owned hot rolled quotes were US$1110/MT, both unchanged from previous Friday's quotes.
+
+## Inventory | Indonesian Stainless Steel Capacity Rises, China’s Inventory Pressure Increases
+
+As of January 9th, the weekly inventory of major sample stainless steel enterprises in China was 948,000 tons, a decrease of 3.0% month-on-month. By series, the weekly inventories for the stainless steel 200, 300, and 400 series were 140,000, 609,000, and 206,000 tons, respectively, with weekly decreases of 3.0%, 2.4%, and 4.8%. Since December, inventories have been in a continuous de-stocking trend, with a cumulative decrease of 12.7% compared to the end of November, easing inventory pressure at steel mills.
+
+| Inventory in Wuxi sample warehouse (Unit: tons) | 200 series | 300 series | 400 series | Total |
+| --- | --- | --- | --- | --- |
+| Jan 15th | 48,048 | 360,788 | 118,339 | 527,175 |
+| Jan 22nd | 46,857 | 356,137 | 117,089 | 520,083 |
+| Difference | -1,191 | -4,651 | -1,250 | -7,092 |
+
+![Price inventory chart 2](/images/insights/stainless-steel-prices-inventory-insights-in-china-from-jan-12th-to-jan-25th-2026/image-02.png)
+
+In the most recent week, social inventory maintained a de-stocking trend, though it slowed down. Steel mill production increased month-on-month, and the market's current absorption capacity is limited. On January 22, statistics showed that the total inventory of sample warehouses in Wuxi decreased by 7,200 tons month-on-month.
+
+Market statistics show that domestic stainless steel crude steel production in January was 3.407 million tons, an increase of 4.5% month-on-month. Production for all series of stainless steel rose month-on-month, with the 200 and 400 series showing more significant rebounds. Long-term planned capacity for stainless steel remains high. China has nearly 10 million tons of stainless steel capacity waiting to be put into production in the coming years, and Indonesia has also planned significant capacity, meaning the market will still face major supply pressure in the future.
+
+## Raw Material: Commodities Follow the Market Trend, Prices Continue to Rise
+
+Overall, spot prices may continue to fluctuate at high levels in the short term. Stainless steel futures have risen for several weeks, leading spot prices. Ferrochrome prices for February steel tenders rose, and nickel-iron costs were pushed up by policy expectations, strengthening the cost support for stainless steel.
+
+Last week, the mainstream ex-factory quote for high-nickel iron rose by US$4.3 to US$149.1/nickel point. The price of ferrochrome rose by US$14 to US$1210.3/50 reference tons. The theoretical production cost for cold-rolled stainless steel 304 is US$2120/MT, and steel mill production is currently in a profitable state.
+
+## Summary | Stainless Steel Exports Restricted by Macro Factors
+
+On the macro level, although many favorable monetary policies have been introduced, the implementation of domestic fiscal policy stimulus has been slow, providing limited stimulus to the real economy. The export environment is affected by macro factors, and uncertainty remains high. The current market is heavily influenced by overall macro sentiment; in the short term, stainless steel prices are still supported by factors such as raw material prices and social inventory de-stocking.
+
+**Stainless steel 300 Series:** Arrivals at steel mills are tight, and the market shortage is unlikely to be alleviated soon, both of which will solidify the price floor. However, as the Spring Festival holiday approaches, the upside for prices may be limited due to strong downstream wariness of high prices and the fact that stockpiling is nearing its end. Continuous attention should be paid to steel mill production plans and the speed of inventory de-stocking.
+
+**Stainless steel 200 Series:** Regarding raw materials, copper and manganese prices have continued to correct from high levels but stopped falling and rebounded on Friday; while the production cost of stainless steel 201 has decreased slightly, it still provides some support for prices. Steel mills opened March futures prices at a higher level of around the US$1195/MT. The market continues to run in a high-level range, with the peak breaking the US$2270/MT mark. Market quotes are relatively firm, and stainless steel 201 prices are likely to remain mostly stable.
+
+**Stainless steel 400 Series:** Continuously rising costs have further strengthened the mindset of steel mills to support prices. Currently, spot inventory is still at a lower level compared to the same period last year. It is expected that Stainless steel 430 prices will mainly run on the stronger side in the short term. Future focus will be on changes in steel mill production schedules and actual market transaction conditions.
+
+## SEA FREIGHT | Freight Rates Continue to Fall
+
+Last week, the Chinese export container transport market performed somewhat weakly, with freight rates on ocean-going routes trending lower, dragging down the composite index.
+
+## On January 23rd, the Shanghai Containerized Freight Index (SCFI) fell 7.4% at 1457.86 points.
+
+![Price inventory chart 3](/images/insights/stainless-steel-prices-inventory-insights-in-china-from-jan-12th-to-jan-25th-2026/image-03.png)
+
+**Europe/ Mediterranean:** On January 23rd, the freight rate (maritime and marine surcharge) exported from Shanghai Port to the European major ports was US$1595/TEU, which decreased by 4.8%. The freight rate (shipping and shipping surcharges) for exports from Shanghai Port to the Mediterranean major ports market was US$2756/TEU, which was down by 7.6% from the previous week.
+
+**North America:** On January 23rd, the freight rates (shipping and shipping surcharges) for exports from Shanghai Port to the US West and US East major ports were US$2084/FEU and US$2896/FEU, reporting 5% and 8.5% loss accordingly.
+
+**The Persian Gulf and the Red Sea:** On January 23rd, the freight rate (maritime and marine surcharges) exported from Shanghai Port to the major ports of the Persian Gulf dropped 24% to US$1288/TEU.
+
+**Australia & New Zealand:** On January 23rd, the freight rate (shipping and shipping surcharges) for exports from Shanghai Port to the major ports of Australia and New Zealand decreased by 10.6% to US$1029/TEU.
+
+**South America:** On January 23rd, the freight rate (shipping and shipping surcharges) for exports from Shanghai Port to South American major ports fell by 3.5% to US$1153/TEU.
+

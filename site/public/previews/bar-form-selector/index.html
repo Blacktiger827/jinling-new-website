@@ -1,0 +1,198 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bar Form Selector Preview</title>
+  <style>
+    :root {
+      --ink: #111820;
+      --ink-2: #1b2632;
+      --cream: #f7f2e8;
+      --paper: #fffdf8;
+      --line: #d8cbb8;
+      --gold: #f6d044;
+      --muted: #5f6872;
+      --brown: #8a6b32;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0d141b;
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .hero {
+      min-height: 48vh;
+      display: grid;
+      place-items: center start;
+      padding: 56px 28px;
+      background:
+        linear-gradient(90deg, rgba(13,20,27,.96), rgba(13,20,27,.84) 48%, rgba(13,20,27,.64)),
+        url('/images/products/bar/hero-premium-bar-forms.png') center/cover;
+      color: white;
+    }
+    .hero-inner, .preview-inner { width: min(1024px, 100%); margin: 0 auto; }
+    .eyebrow { color: var(--gold); font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+    h1 { max-width: 760px; margin: 18px 0 0; font-size: clamp(32px, 5vw, 52px); line-height: 1.04; letter-spacing: -.02em; }
+    .hero p { max-width: 680px; color: rgba(255,255,255,.76); line-height: 1.65; font-size: 15px; }
+    main { background: var(--cream); padding: 36px 22px 58px; }
+    .preview { width: min(1024px, 100%); margin: 0 auto 34px; border-top: 1px solid rgba(138,107,50,.22); padding-top: 22px; }
+    .preview-label { margin: 0 0 14px; color: var(--brown); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    a { text-decoration: none; }
+
+    /* Option 1 */
+    .rail {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 42px rgba(13,20,27,.07);
+    }
+    .rail a {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      border-right: 1px solid var(--line);
+      transition: .22s ease;
+    }
+    .rail a:last-child { border-right: 0; }
+    .rail a::after {
+      content: "";
+      position: absolute;
+      left: 22px;
+      right: 22px;
+      bottom: 17px;
+      height: 3px;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: .22s ease;
+    }
+    .rail a:hover { background: #111820; color: var(--gold); }
+    .rail a:hover::after { transform: scaleX(1); }
+
+    /* Option 2 */
+    .index-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .index-grid a {
+      min-height: 118px;
+      display: grid;
+      align-content: space-between;
+      padding: 17px 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      box-shadow: 0 14px 34px rgba(13,20,27,.055);
+      transition: .22s ease;
+    }
+    .index-grid .num { color: var(--brown); font-size: 11px; font-weight: 800; letter-spacing: .18em; }
+    .index-grid .name { margin-top: 22px; display: block; font-size: 17px; line-height: 1.1; font-weight: 800; letter-spacing: -.01em; }
+    .index-grid .hint { margin-top: 10px; display: block; color: var(--muted); font-size: 12px; line-height: 1.45; }
+    .index-grid a:hover { background: var(--ink); border-color: var(--ink); color: white; transform: translateY(-3px); }
+    .index-grid a:hover .num, .index-grid a:hover .hint { color: rgba(246,208,68,.86); }
+
+    /* Option 3 */
+    .dark-switch {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: #0d141b;
+      border: 1px solid rgba(246,208,68,.28);
+      box-shadow: 0 20px 48px rgba(13,20,27,.16);
+      overflow: hidden;
+    }
+    .dark-switch a {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: rgba(255,255,255,.82);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,.12);
+      position: relative;
+      transition: .22s ease;
+    }
+    .dark-switch a:last-child { border-right: 0; }
+    .dark-switch a::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      background: var(--gold);
+      opacity: .72;
+      transform: rotate(45deg);
+      transition: .22s ease;
+    }
+    .dark-switch a::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 4px;
+      background: var(--gold);
+      transform: translateY(4px);
+      transition: .22s ease;
+    }
+    .dark-switch a:hover { background: #17212b; color: var(--gold); }
+    .dark-switch a:hover::before { opacity: 1; transform: rotate(45deg) scale(1.25); }
+    .dark-switch a:hover::after { transform: translateY(0); }
+
+    @media (max-width: 760px) {
+      .rail, .index-grid, .dark-switch { grid-template-columns: 1fr 1fr; }
+      .rail a:nth-child(2), .dark-switch a:nth-child(2) { border-right: 0; }
+      .rail a { border-bottom: 1px solid var(--line); }
+      .rail a:nth-child(n+3) { border-bottom: 0; }
+      .dark-switch a { border-bottom: 1px solid rgba(255,255,255,.12); }
+      .dark-switch a:nth-child(n+3) { border-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Product release</div>
+      <h1>Premium Quality Stainless Steel Bar Supplier with Stable Supply & Fast Delivery in China</h1>
+      <p>Stainless steel bars are supplied with controlled dimensional accuracy, stable mechanical performance, and consistent material quality for machining and fabrication.</p>
+    </div>
+  </section>
+  <main>
+    <section class="preview">
+      <p class="preview-label">Option 1 · Clean segmented rail</p>
+      <nav class="rail" aria-label="Bar form selector option 1">
+        <a href="#round-bar">Round Bar</a>
+        <a href="#flat-bar">Flat Bar</a>
+        <a href="#angle-bar">Angle Bar</a>
+        <a href="#square-hex-bar">Square & Hex</a>
+      </nav>
+    </section>
+
+    <section class="preview">
+      <p class="preview-label">Option 2 · Technical index cards</p>
+      <nav class="index-grid" aria-label="Bar form selector option 2">
+        <a href="#round-bar"><span class="num">01</span><span><span class="name">Round Bar</span><span class="hint">CNC turning / shafts</span></span></a>
+        <a href="#flat-bar"><span class="num">02</span><span><span class="name">Flat Bar</span><span class="hint">Frames / clean edges</span></span></a>
+        <a href="#angle-bar"><span class="num">03</span><span><span class="name">Angle Bar</span><span class="hint">Supports / bracing</span></span></a>
+        <a href="#square-hex-bar"><span class="num">04</span><span><span class="name">Square & Hex</span><span class="hint">Fasteners / profiles</span></span></a>
+      </nav>
+    </section>
+
+    <section class="preview">
+      <p class="preview-label">Option 3 · Dark precision switch</p>
+      <nav class="dark-switch" aria-label="Bar form selector option 3">
+        <a href="#round-bar">Round Bar</a>
+        <a href="#flat-bar">Flat Bar</a>
+        <a href="#angle-bar">Angle Bar</a>
+        <a href="#square-hex-bar">Square & Hex</a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
