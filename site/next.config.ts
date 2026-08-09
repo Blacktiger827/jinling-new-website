@@ -10,6 +10,27 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // ===== High-value legacy URLs supplied in the final SEO mapping =====
+      { source: "/product/cold-rolled-stainless-steel-coil.html", destination: "/products/stainless-steel-coil", permanent: true },
+      { source: "/page/about-us.html", destination: "/about", permanent: true },
+      { source: "/page/contact-us.html", destination: "/contact", permanent: true },
+      { source: "/article/outbreak-all-stainless-steel-products-exports-are-required-export-license-in-china-jan-2026.html", destination: "/insights/outbreak-all-stainless-steel-products-exports-are-required-export-license-in-china-jan-2026", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-may-11th-to-may-15th-2026.html", destination: "/insights/china-stainless-steel-prices-inventory-update-may-11-15-2026", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-apr-20th-to-apr-24th-2026.html", destination: "/insights/china-stainless-steel-prices-inventory-update-apr-20-24-2026", permanent: true },
+      { source: "/articles/insights.html", destination: "/resources/market-insights", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-2025-market-review-2026-outlook.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-2025-market-review-2026-outlook", permanent: true },
+      { source: "/article/stainless-insights-in-china-rising-raw-material-costs-drive-up-stainless-steel-prices.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-25-to-29-aug-2025", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-june-15th-to-18th-2026.html", destination: "/insights/china-stainless-steel-prices-inventory-update-june-15-18-2026", permanent: true },
+      { source: "/articles/weekly.html", destination: "/resources/market-insights/latest-market-updates", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-15th-to-28th-sep-2025.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-15th-to-28th-sep-2025", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-mar-9th-to-mar-22nd-2026.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-mar-9th-to-mar-22nd-2026", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory--insights-in-china-from-jan-26th-to-feb-6th-2026.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-jan-26th-to-feb-6th-2026", permanent: true },
+      { source: "/article/stainless-insights-in-china-mid-year-review-of-the-stainless-steel-market-in-2025.html", destination: "/insights/stainless-insights-in-china-mid-year-review-of-the-stainless-steel-market-in-2025", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-may-25th-to-may-29th-2026.html", destination: "/insights/china-stainless-steel-prices-inventory-update-may-25-29-2026", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-nov-24th-to-dec-7th-2025.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-nov-24th-to-dec-7th-2025", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-sep-29th-to-oct-12th-2025.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-sep-29th-to-oct-12th-2025", permanent: true },
+      { source: "/article/stainless-steel-prices-inventory-insights-in-china-from-jan-12th-to-jan-25th-2026.html", destination: "/insights/stainless-steel-prices-inventory-insights-in-china-from-jan-12th-to-jan-25th-2026", permanent: true },
+
       // ===== Existing structural redirects =====
       { source: "/products/industrial-pipe", destination: "/products/stainless-steel-industrial-pipe", permanent: true },
       { source: "/products/sheet", destination: "/products/stainless-steel-sheet", permanent: true },
