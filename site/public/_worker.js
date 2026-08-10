@@ -11,11 +11,15 @@ function shouldRedirectMissingPage(request, url) {
 
 const worker = {
   async fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.hostname === "jinlingmetals.com") {
+      return Response.redirect(`https://www.jinlingmetals.com${url.pathname}${url.search}`, 301);
+    }
+
     const response = await env.ASSETS.fetch(request);
 
     if (response.status !== 404) return response;
 
-    const url = new URL(request.url);
     if (!shouldRedirectMissingPage(request, url)) return response;
 
     return Response.redirect(new URL("/", url), 301);
