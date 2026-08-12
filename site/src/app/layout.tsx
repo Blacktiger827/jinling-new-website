@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { SITE_URL } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: {
@@ -10,11 +11,12 @@ export const metadata: Metadata = {
   },
   description:
     "Stainless steel coil, sheet, bar, tube, and signature finishes from Jinling Steel. Process-led finishing, film, packaging, and export support since 1997.",
-  metadataBase: new URL("https://www.jinlingsteel.com"),
+  metadataBase: new URL(SITE_URL),
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: "Jinling Steel",
+    url: SITE_URL,
   },
 };
 
@@ -22,8 +24,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Jinling Steel Co., Ltd.",
-  url: "https://www.jinlingsteel.com",
-  logo: "https://www.jinlingsteel.com/logo.png",
+  url: SITE_URL,
+  logo: `${SITE_URL}/images/common/jinling-logo.png`,
   description:
     "Foshan-based stainless steel processor and exporter for coil, sheet, bar, tube, pipe, surface finishing, packing, and document-led release work since 1997.",
   foundingDate: "1997",
@@ -42,9 +44,7 @@ const jsonLd = {
     contactType: "sales",
     availableLanguage: ["English", "Chinese"],
   },
-  sameAs: [
-    "https://www.jinlingmetals.com",
-  ],
+  sameAs: [SITE_URL],
 };
 
 export default function RootLayout({

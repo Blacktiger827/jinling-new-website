@@ -1,4 +1,4 @@
-const SITE_URL = "https://www.jinlingsteel.com";
+export const SITE_URL = "https://www.jinlingmetals.com";
 
 interface BreadcrumbInput {
   label: string;

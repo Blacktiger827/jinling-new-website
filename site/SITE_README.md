@@ -14,7 +14,7 @@
 | 样式 | Tailwind CSS 4 + `@tailwindcss/typography` |
 | 内容 | Markdown → remark → HTML (使用 gray-matter 解析 frontmatter) |
 | 渲染模式 | SSG (Static Site Generation)，全部 217 页静态生成 |
-| 域名 | https://www.jinlingsteel.com |
+| 域名 | https://www.jinlingmetals.com |
 
 ### 本地开发
 
