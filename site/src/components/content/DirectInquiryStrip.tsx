@@ -17,7 +17,7 @@ function buildMailto({ title, pageUrl, variant }: DirectInquiryStripProps) {
       : variant === "application"
         ? "Application review"
         : "Process review";
-  const contextLine = pageUrl ? `Page: https://www.jinlingsteel.com${pageUrl}` : `Page: ${title}`;
+  const contextLine = pageUrl ? `Page: https://www.jinlingmetals.com${pageUrl}` : `Page: ${title}`;
   const body = [
     "Hi Jinling team,",
     "",
