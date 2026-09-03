@@ -72,85 +72,57 @@ const requestRoutes = [
     href: createEmailHref(
       "Price & Availability Inquiry - Jinling Metals",
       [
-        "Hello Jinling Metals team,",
-        "",
-        "Request type: Price & Availability",
-        "",
         "I would like to check price, availability, or lead time for the following stainless steel requirement.",
         "",
-        "Product form:",
+        "Here is my basic profile",
+        "",
+        "Buyer name:",
+        "Phone / WhatsApp:",
+        "Company name:",
+        "Company website:",
+        "",
+        "Product requirement:",
+        "Product form (coil / sheet / plate / strip / tube / pipe / bar):",
         "Grade:",
         "Finish:",
         "Size:",
         "Quantity:",
-        "Destination port or country:",
-        "Expected delivery timing:",
-        "Packing requirement:",
-        "Required documents:",
         "",
         "Additional notes:",
       ].join("\n"),
     ),
   },
   {
-    id: "technical-review",
-    eyebrow: "Grade & Finish Review",
-    title: "Ask a Technical Question",
+    id: "sample-request",
+    legacyId: "technical-review",
+    eyebrow: "Sample Request",
+    title: "Request Stainless Steel Samples",
     description:
-      "For grade selection, surface finish, corrosion risk, processing, or specification review.",
-    cta: "Submit Technical Template",
+      "For sample review, finish approval, application checks, or pre-order evaluation.",
+    cta: "Submit Sample Template",
     image: "/images/contact/template-card-technical.jpg",
-    imageAlt: "Jinling Metals branded envelope for stainless steel specification communication",
+    imageAlt: "Jinling Metals branded envelope for stainless steel sample request communication",
     href: createEmailHref(
-      "Grade & Finish Review - Jinling Metals",
+      "Sample Request - Jinling Metals",
       [
         "Hello Jinling Metals team,",
         "",
-        "Request type: Grade & Finish Review",
+        "I would like to request stainless steel samples for review or approval.",
         "",
-        "I would like your help reviewing the stainless steel grade, finish, or specification for the following application.",
+        "Here is my basic profile",
         "",
-        "Application:",
-        "Service environment:",
-        "Current grade or finish:",
-        "Target grade or finish:",
-        "Product form:",
-        "Size:",
-        "Quantity:",
-        "Drawing, photo, or standard requirement:",
-        "Main concern:",
+        "Buyer name:",
+        "Phone / WhatsApp:",
+        "Company name:",
+        "Company website:",
         "",
-        "Additional notes:",
-      ].join("\n"),
-    ),
-  },
-  {
-    id: "project-application-support",
-    eyebrow: "Project & Application Support",
-    title: "Discuss a Project Need",
-    description:
-      "For application-based material, finish, processing, and supply route questions.",
-    cta: "Submit Project Template",
-    image: "/images/contact/template-card-project.jpg",
-    imageAlt: "Stainless steel spiral staircase project concept for application support",
-    href: createEmailHref(
-      "Project & Application Support - Jinling Metals",
-      [
-        "Hello Jinling Metals team,",
+        "Here is the details for my sample request",
         "",
-        "Request type: Project & Application Support",
-        "",
-        "I would like to discuss stainless steel material, finish, processing, or supply options for a project or application.",
-        "",
-        "Application or project type:",
-        "End-use environment:",
-        "Product form:",
-        "Preferred grade or finish:",
-        "Size or drawing requirement:",
-        "Estimated quantity:",
-        "Destination country:",
-        "Key performance or appearance requirement:",
-        "Project stage:",
+        "Product form (sheet / tube / bar):",
+        "Grade:",
+        "Finish:",
+        "Sample size:",
+        "Target application:",
         "",
         "Additional notes:",
       ].join("\n"),
@@ -565,7 +537,7 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <div className="mx-auto mt-8 grid max-w-7xl gap-5 lg:grid-cols-3">
+          <div className="mx-auto mt-8 grid max-w-5xl gap-5 md:grid-cols-2">
             {requestRoutes.map((route) => (
               <a
                 key={route.id}
@@ -573,6 +545,9 @@ export default function ContactPage() {
                 href={route.href}
                 className="group relative isolate flex min-h-[14.5rem] scroll-mt-28 flex-col justify-between overflow-hidden border border-white/16 bg-[#111820] p-6 shadow-[0_22px_60px_rgba(0,0,0,0.22)] transition duration-300 hover:-translate-y-1 hover:border-[#f6d044]/70 hover:shadow-[0_30px_75px_rgba(0,0,0,0.32)] sm:min-h-[15.5rem]"
               >
+                {"legacyId" in route && (
+                  <span id={route.legacyId} className="absolute -top-28" aria-hidden="true" />
+                )}
                 <Image
                   src={route.image}
                   alt={route.imageAlt}
