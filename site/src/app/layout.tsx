@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "Stainless steel coil, sheet, bar, tube, and signature finishes from Jinling Steel. Process-led finishing, film, packaging, and export support since 1997.",
   metadataBase: new URL(SITE_URL),
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
