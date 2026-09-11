@@ -23,15 +23,25 @@ export function VideoEmbed({
   const [loaded, setLoaded] = useState(false);
   const fallbackPoster = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
   const coverImage = poster || fallbackPoster;
-  const embedQuery = `autoplay=1${startSeconds > 0 ? `&start=${startSeconds}` : ""}`;
+  const watchUrl = `https://www.youtube.com/watch?v=${youtubeId}${
+    startSeconds > 0 ? `&t=${startSeconds}s` : ""
+  }`;
+  const embedQuery = `autoplay=1&playsinline=1&rel=0${
+    startSeconds > 0 ? `&start=${startSeconds}` : ""
+  }`;
 
   return (
     <figure className={className}>
       <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-black">
         {!loaded ? (
-          <button
-            type="button"
-            onClick={() => setLoaded(true)}
+          <a
+            href={watchUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(event) => {
+              event.preventDefault();
+              setLoaded(true);
+            }}
             className="group absolute inset-0 flex items-center justify-center"
             aria-label={`Play ${title}`}
           >
@@ -53,12 +63,12 @@ export function VideoEmbed({
                 <path d="M6.3 2.84A1 1 0 004.8 3.7v12.6a1 1 0 001.5.86l11-6.3a1 1 0 000-1.72l-11-6.3z" />
               </svg>
             </span>
-          </button>
+          </a>
         ) : (
           <iframe
             src={`https://www.youtube.com/embed/${youtubeId}?${embedQuery}`}
             title={title}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             className="h-full w-full"
           />

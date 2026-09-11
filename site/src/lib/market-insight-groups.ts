@@ -1,4 +1,5 @@
 ﻿export const latestMarketReportSlugs = [
+  "china-stainless-steel-prices-inventory-update-aug-24-sep-6-2026",
   "china-stainless-steel-prices-inventory-update-august-10-14-2026",
   "china-stainless-steel-prices-inventory-update-july-6-10-2026",
   "china-stainless-steel-prices-inventory-update-june-15-18-2026",
@@ -8,6 +9,7 @@
 ] as const;
 
 export const priceInventoryReportSlugs = [
+  "china-stainless-steel-prices-inventory-update-aug-24-sep-6-2026",
   "china-stainless-steel-prices-inventory-update-august-10-14-2026",
   "china-stainless-steel-prices-inventory-update-july-6-10-2026",
   "china-stainless-steel-prices-inventory-update-june-15-18-2026",

@@ -56,17 +56,13 @@ function AnimatedFigure({
   suffix?: string;
   runId: number;
 }) {
-  const [displayValue, setDisplayValue] = useState(0);
+  const [displayValue, setDisplayValue] = useState(value);
 
   useEffect(() => {
     if (runId === 0) return;
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      const reducedMotionFrame = window.requestAnimationFrame(() => {
-        setDisplayValue(value);
-      });
-
-      return () => window.cancelAnimationFrame(reducedMotionFrame);
+      return;
     }
 
     let frame = 0;
@@ -113,6 +109,8 @@ export default function HomeKeyFigures() {
   useEffect(() => {
     const current = sectionRef.current;
     if (!current) return;
+
+    if (!("IntersectionObserver" in window)) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
