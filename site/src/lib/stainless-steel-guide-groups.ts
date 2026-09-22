@@ -29,6 +29,7 @@ export const stainlessSteelGuideCategorySections = [
     articleSlugs: [
       "2b-vs-ba-surface-finish",
       "no4-vs-hairline-finish",
+      "what-is-cold-rolling-stainless-steel",
     ],
   },
   {

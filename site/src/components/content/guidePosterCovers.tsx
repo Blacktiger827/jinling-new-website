@@ -9,6 +9,8 @@ export const guideCoverBySlug: Record<string, string> = {
     "/images/resources/guide-cover-surface-fabrication.jpg",
   "no4-vs-hairline-finish":
     "/images/resources/guide-cover-surface-fabrication.jpg",
+  "what-is-cold-rolling-stainless-steel":
+    "/images/blog/what-is-cold-rolling-stainless-steel/cold-rolled-stainless-steel-coil-line.jpeg",
   "how-to-read-mill-test-certificate":
     "/images/resources/guide-cover-standards-buying.jpeg",
   "stainless-steel-samples-mtc-certificate-of-origin":
@@ -62,6 +64,20 @@ export function getGuidePosterTitle(slug: string, title: string): ReactNode {
         <span className="block">No.4 or Hairline</span>
         <span className="mt-2 block text-[0.78em]">
           Which Brushed Finish Will Age Better?
+        </span>
+      </>
+    );
+  }
+
+  if (slug === "what-is-cold-rolling-stainless-steel") {
+    return (
+      <>
+        <span className="block">Cold-Rolled Stainless Steel</span>
+        <span className="mt-2 block text-[0.78em]">
+          What Buyers Should Specify
+        </span>
+        <span className="mt-2 block text-[0.78em]">
+          Before Comparing Quotes
         </span>
       </>
     );

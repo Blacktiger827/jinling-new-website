@@ -14,6 +14,7 @@ import {
 } from "@/lib/structured-data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Image from "next/image";
 import articleList from "../articles.json";
 import { isPublishedKnowledgeBaseSlug } from "@/lib/content";
 
@@ -148,13 +149,15 @@ function pickClosestRelated(
 function CleanGuideArticleIntro({
   title,
   description,
+  heroImage,
 }: {
   title: string;
   description?: string;
+  heroImage?: string;
 }) {
   return (
     <header className="bg-white">
-      <div className="mx-auto max-w-[52rem] px-4 pb-3 pt-10 sm:px-6 sm:pb-4 sm:pt-12 lg:px-8">
+      <div className="mx-auto max-w-[52rem] px-4 pb-5 pt-10 sm:px-6 sm:pb-6 sm:pt-12 lg:px-8">
         <h1 className="text-[1.9rem] font-semibold leading-[1.08] text-brand-dark sm:text-[2.25rem]">
           {title}
         </h1>
@@ -162,6 +165,20 @@ function CleanGuideArticleIntro({
           <p className="mt-5 text-[1.02rem] leading-8 text-[#5d6670] sm:text-[1.08rem]">
             {description}
           </p>
+        )}
+        {heroImage && (
+          <figure className="mt-8">
+            <div className="relative aspect-[16/9] overflow-hidden border border-slate-200 bg-slate-100">
+              <Image
+                src={heroImage}
+                alt={title}
+                fill
+                priority
+                className="object-cover"
+                sizes="(min-width: 768px) 52rem, calc(100vw - 2rem)"
+              />
+            </div>
+          </figure>
         )}
       </div>
     </header>
@@ -300,6 +317,7 @@ export default async function KnowledgeBaseArticle({ params }: Props) {
           <CleanGuideArticleIntro
             title={content.title}
             description={content.description}
+            heroImage={content.heroImage}
           />
         ) : undefined
       }
