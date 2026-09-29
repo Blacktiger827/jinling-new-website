@@ -83,7 +83,7 @@ For food and dairy work, the weld release should include:
 - passivation after weld cleanup
 - Ra check at representative weld zones when hygiene risk is high
 
-For the broader material decision, pair this with [stainless steel for food equipment](/knowledge-base/stainless-steel-food-equipment).
+For the broader material decision, pair this with [food-grade stainless certification vs labeling](/knowledge-base/food-grade-stainless-steel-certified-or-labeled).
 
 ## A Cleaner Specification Line
 

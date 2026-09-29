@@ -87,4 +87,4 @@ If the job needs hygienic or high-purity release:
 
 Do not use `mirror` and `electropolished` as interchangeable words. Mirror is a visual finish. Electropolishing is a surface-chemistry process.
 
-For food and sanitary requirements, see [stainless steel for food equipment](/knowledge-base/stainless-steel-food-equipment). For pitting and passive-film risk, see [what causes pitting corrosion](/knowledge-base/what-is-pitting-corrosion).
+For food and sanitary requirements, see [food-grade stainless certification vs labeling](/knowledge-base/food-grade-stainless-steel-certified-or-labeled). For pitting and passive-film risk, see [what causes pitting corrosion](/knowledge-base/what-is-pitting-corrosion).

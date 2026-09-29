@@ -42,6 +42,7 @@
 /surfaces/surface-finish-guide /surfaces 301
 /blog/:slug /knowledge-base/:slug 301
 /knowledge-base /resources/stainless-steel-guides 301
+/knowledge-base/stainless-steel-food-equipment /knowledge-base/food-grade-stainless-steel-certified-or-labeled 301
 /knowledge-base/how-to-read-mtc /knowledge-base/how-to-read-mill-test-certificate 301
 /knowledge-base/duplex-stainless-steel-welding /knowledge-base/duplex-vs-austenitic-stainless-steel 301
 /knowledge-base/thickness-tolerance-stainless-steel /knowledge-base/stainless-steel-thickness-tolerance-standards 301

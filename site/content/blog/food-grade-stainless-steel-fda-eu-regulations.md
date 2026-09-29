@@ -131,4 +131,4 @@ If the buyer cannot answer the destination-market question, the supplier cannot 
 
 **What should a food-grade letter include?** Heat reference, grade, product standard, regulation cited, condition of use, and authorized signature.
 
-For alloy selection, read [food-grade stainless steel](/knowledge-base/stainless-steel-food-equipment). For surface requirements, use [surface roughness for food equipment](/knowledge-base/surface-roughness-ra-food-equipment).
+For alloy selection, read [food-grade stainless certification vs labeling](/knowledge-base/food-grade-stainless-steel-certified-or-labeled). For surface requirements, use [surface roughness for food equipment](/knowledge-base/surface-roughness-ra-food-equipment).

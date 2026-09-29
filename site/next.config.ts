@@ -60,6 +60,7 @@ const nextConfig: NextConfig = {
 
       { source: "/blog/:slug", destination: "/knowledge-base/:slug", permanent: true },
       { source: "/knowledge-base", destination: "/resources/stainless-steel-guides", permanent: true },
+      { source: "/knowledge-base/stainless-steel-food-equipment", destination: "/knowledge-base/food-grade-stainless-steel-certified-or-labeled", permanent: true },
       { source: "/knowledge-base/how-to-read-mtc", destination: "/knowledge-base/how-to-read-mill-test-certificate", permanent: true },
       // duplex-stainless-steel-welding previously pointed to duplex-welding-phase-balance (now retired); rerouted:
       { source: "/knowledge-base/duplex-stainless-steel-welding", destination: "/knowledge-base/duplex-vs-austenitic-stainless-steel", permanent: true },
