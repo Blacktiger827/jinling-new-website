@@ -234,7 +234,7 @@ export default function ResourcesPage() {
   const featuredGuides = stainlessSteelGuideCategorySections
     .map((section) => guideBySlug.get(section.articleSlugs[0]))
     .filter((article): article is ContentItem => Boolean(article))
-    .slice(0, 2);
+    .slice(0, 3);
 
   return (
     <div className="bg-[#f6f0e5] text-[#111820]">
