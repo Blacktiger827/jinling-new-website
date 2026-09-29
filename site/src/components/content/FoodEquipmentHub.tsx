@@ -36,11 +36,11 @@ const foodReadingShelf = [
     href: "/knowledge-base/food-grade-stainless-steel",
   },
   {
-    eyebrow: "Equipment fit",
-    title: "Food Equipment Selection",
+    eyebrow: "Document proof",
+    title: "Certified or Labeled?",
     description:
-      "Use this when the issue is the broader hygiene picture: alloy, weld logic, documentation, and audit consequences together.",
-    href: "/knowledge-base/stainless-steel-food-equipment",
+      "Use this when a food-grade claim needs alloy, surface, traceability, fabrication, and market-route evidence.",
+    href: "/knowledge-base/food-grade-stainless-steel-certified-or-labeled",
   },
   {
     eyebrow: "Measured surface",

@@ -15,6 +15,8 @@ export const guideCoverBySlug: Record<string, string> = {
     "/images/resources/guide-cover-standards-buying.jpeg",
   "stainless-steel-samples-mtc-certificate-of-origin":
     "/images/resources/guide-cover-standards-buying.jpeg",
+  "food-grade-stainless-steel-certified-or-labeled":
+    "/images/blog/food-grade-certified/food-grade-stainless-certified-hero.jpg",
 };
 
 export const guideCoverImageClassBySlug: Record<string, string> = {
@@ -22,6 +24,8 @@ export const guideCoverImageClassBySlug: Record<string, string> = {
     "scale-[1.18] object-cover object-[center_38%] transition duration-500 group-hover:scale-[1.21]",
   "stainless-steel-samples-mtc-certificate-of-origin":
     "scale-[1.18] object-cover object-[center_38%] transition duration-500 group-hover:scale-[1.21]",
+  "food-grade-stainless-steel-certified-or-labeled":
+    "object-cover object-[center_46%] transition duration-500 group-hover:scale-[1.03]",
 };
 
 export function getGuidePosterTitle(slug: string, title: string): ReactNode {
@@ -103,6 +107,17 @@ export function getGuidePosterTitle(slug: string, title: string): ReactNode {
         <span className="block">What Can You Really Check</span>
         <span className="mt-2 block text-[0.78em]">
           Before a Stainless Order?
+        </span>
+      </>
+    );
+  }
+
+  if (slug === "food-grade-stainless-steel-certified-or-labeled") {
+    return (
+      <>
+        <span className="block">Food-Grade Stainless Steel</span>
+        <span className="mt-2 block text-[0.78em]">
+          Certified, or Just Labeled?
         </span>
       </>
     );

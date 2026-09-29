@@ -58,10 +58,10 @@ const kitchenReadingShelf = [
   },
   {
     eyebrow: "Hygiene fit",
-    title: "Food Equipment Guidance",
+    title: "Certified or Labeled?",
     description:
-      "Step into the broader hygiene, weld, Ra, and audit logic behind food-processing equipment.",
-    href: "/knowledge-base/stainless-steel-food-equipment",
+      "Step into the proof chain behind food-grade claims before relying on a material label.",
+    href: "/knowledge-base/food-grade-stainless-steel-certified-or-labeled",
   },
   {
     eyebrow: "Measured surface",

@@ -86,4 +86,4 @@ For most buying conversations, the document route matters almost as much as the 
 - Required documentation and traceability.
 - Whether downstream electropolish, 3-A, or other system qualification is part of the project.
 
-If the next decision is tubing format, continue with the [sanitary tube](/products/stainless-steel-sanitary-tube) route. If the issue is equipment-level hygiene design, go next to [stainless steel for food equipment](/knowledge-base/stainless-steel-food-equipment).
+If the next decision is tubing format, continue with the [sanitary tube](/products/stainless-steel-sanitary-tube) route. If the issue is proving a food-grade claim before release, go next to [food-grade stainless certification vs labeling](/knowledge-base/food-grade-stainless-steel-certified-or-labeled).

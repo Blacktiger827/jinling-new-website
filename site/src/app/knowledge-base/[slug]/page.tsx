@@ -64,6 +64,14 @@ const RELATED_OVERRIDES: Record<
       "what-the-2026-china-export-licence-changes-for-stainless-buyers",
     ],
   },
+  "food-grade-stainless-steel-certified-or-labeled": {
+    title: "Related Posts",
+    slugs: [
+      "304-vs-316-stainless-steel",
+      "how-to-read-mill-test-certificate",
+      "stainless-steel-samples-mtc-certificate-of-origin",
+    ],
+  },
 };
 
 // Tokens that appear too often to indicate topical closeness.
