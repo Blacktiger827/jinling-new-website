@@ -13,6 +13,7 @@ export const stainlessSteelGuideCategorySections = [
       "Start here when the decision depends on grade family, service environment, corrosion exposure, or where the stainless steel will be used.",
     articleSlugs: [
       "304-vs-316-stainless-steel",
+      "304-vs-316l-food-equipment-upgrade",
       "201-vs-304-stainless-steel",
     ],
   },

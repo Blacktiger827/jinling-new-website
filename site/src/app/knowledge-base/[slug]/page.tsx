@@ -72,6 +72,14 @@ const RELATED_OVERRIDES: Record<
       "stainless-steel-samples-mtc-certificate-of-origin",
     ],
   },
+  "304-vs-316l-food-equipment-upgrade": {
+    title: "Related Posts",
+    slugs: [
+      "304-vs-316-stainless-steel",
+      "food-grade-stainless-steel-certified-or-labeled",
+      "304-vs-430-kitchen-equipment",
+    ],
+  },
 };
 
 // Tokens that appear too often to indicate topical closeness.

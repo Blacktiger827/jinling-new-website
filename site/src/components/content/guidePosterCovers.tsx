@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 export const guideCoverBySlug: Record<string, string> = {
   "304-vs-316-stainless-steel":
     "/images/resources/guide-cover-grade-application.jpg",
+  "304-vs-316l-food-equipment-upgrade":
+    "/images/blog/304-vs-316l-food-equipment/304-316l-food-equipment-kitchen-hero.jpg",
   "201-vs-304-stainless-steel":
     "/images/resources/guide-cover-grade-application.jpg",
   "2b-vs-ba-surface-finish":
@@ -26,6 +28,8 @@ export const guideCoverImageClassBySlug: Record<string, string> = {
     "scale-[1.18] object-cover object-[center_38%] transition duration-500 group-hover:scale-[1.21]",
   "food-grade-stainless-steel-certified-or-labeled":
     "object-cover object-[center_46%] transition duration-500 group-hover:scale-[1.03]",
+  "304-vs-316l-food-equipment-upgrade":
+    "object-cover object-[center_44%] transition duration-500 group-hover:scale-[1.03]",
 };
 
 export function getGuidePosterTitle(slug: string, title: string): ReactNode {
@@ -46,6 +50,20 @@ export function getGuidePosterTitle(slug: string, title: string): ReactNode {
         <span className="block">201 vs 304 Stainless Steel</span>
         <span className="mt-2 block text-[0.78em]">
           Can I Substitute One for the Other?
+        </span>
+      </>
+    );
+  }
+
+  if (slug === "304-vs-316l-food-equipment-upgrade") {
+    return (
+      <>
+        <span className="block">304 vs 316L</span>
+        <span className="mt-2 block text-[0.78em]">
+          for Food Equipment
+        </span>
+        <span className="mt-2 block text-[0.72em]">
+          When Does the Upgrade Pay Off?
         </span>
       </>
     );
