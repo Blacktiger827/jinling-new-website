@@ -4,7 +4,7 @@ export const guideCoverBySlug: Record<string, string> = {
   "304-vs-316-stainless-steel":
     "/images/resources/guide-cover-grade-application.jpg",
   "304-vs-316l-food-equipment-upgrade":
-    "/images/blog/304-vs-316l-food-equipment/food-equipment-wet-service-zone.jpg",
+    "/images/blog/304-vs-316l-food-equipment/304-316l-food-equipment-kitchen-hero.jpg",
   "201-vs-304-stainless-steel":
     "/images/resources/guide-cover-grade-application.jpg",
   "2b-vs-ba-surface-finish":
