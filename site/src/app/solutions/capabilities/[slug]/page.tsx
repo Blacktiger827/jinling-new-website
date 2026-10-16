@@ -2204,6 +2204,16 @@ function ProtectiveFilmMatchingGuideSection() {
           <p className="mt-5 text-[0.96rem] leading-8 text-[#5d554b] first-letter:float-left first-letter:mr-2 first-letter:mt-1 first-letter:text-[3.05rem] first-letter:font-semibold first-letter:leading-[0.86] first-letter:text-[#111820]">
             Protective film for stainless steel sheet should match the finish, coating layer, cutting route, and removal condition before production starts. Jinling helps buyers choose PE film, PVC film, laser film, grain-safe film, or coating-compatible film for 2B, BA, No.4, hairline, 8K mirror, AFP coated stainless steel, and laser cutting projects to reduce scratches, adhesive residue, peel marks, and surface claims.
           </p>
+          <p className="mt-4 text-sm leading-7 text-[#5d554b]">
+            Compare product options and application limits in our{" "}
+            <Link
+              href="/knowledge-base/stainless-steel-protective-film-selection-guide"
+              className="font-medium text-[#36526B] underline decoration-slate-300 underline-offset-4 transition hover:text-[#111820] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f6d044]"
+            >
+              stainless steel protective film selection guide
+            </Link>
+            .
+          </p>
         </div>
         <div className="overflow-hidden border border-[#d8c8ad] bg-[#101010] shadow-[0_18px_44px_rgba(17,24,32,0.11)]">
           <div className="bg-[#101010] px-6 py-4 text-center">

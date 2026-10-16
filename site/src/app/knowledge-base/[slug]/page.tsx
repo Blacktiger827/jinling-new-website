@@ -32,6 +32,10 @@ const RELATED_OVERRIDES: Record<
   string,
   { title: string; slugs: string[] }
 > = {
+  "stainless-steel-protective-film-selection-guide": {
+    title: "Related Posts",
+    slugs: ["no4-vs-hairline-finish", "2b-vs-ba-surface-finish"],
+  },
   "304-vs-316-stainless-steel": {
     title: "Related questions",
     slugs: [
