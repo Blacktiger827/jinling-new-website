@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 
 export const guideCoverBySlug: Record<string, string> = {
+  "stainless-steel-protective-film-selection-guide":
+    "/images/blog/stainless-steel-protective-film/stainless-steel-protective-film-processing-line.jpg",
   "304-vs-316-stainless-steel":
     "/images/resources/guide-cover-grade-application.jpg",
   "304-vs-316l-food-equipment-upgrade":
@@ -33,6 +35,20 @@ export const guideCoverImageClassBySlug: Record<string, string> = {
 };
 
 export function getGuidePosterTitle(slug: string, title: string): ReactNode {
+  if (slug === "stainless-steel-protective-film-selection-guide") {
+    return (
+      <>
+        <span className="block">Protective Film</span>
+        <span className="mt-2 block text-[0.78em]">
+          for Stainless Steel
+        </span>
+        <span className="mt-2 block text-[0.72em]">
+          A Buyer’s Guide
+        </span>
+      </>
+    );
+  }
+
   if (slug === "304-vs-316-stainless-steel") {
     return (
       <>
