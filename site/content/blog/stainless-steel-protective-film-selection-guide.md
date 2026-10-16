@@ -30,13 +30,13 @@ This guide compares five options available through Jinling: Novacel 4236, Novace
 
 | Film option | Published thickness | Manufacturer's adhesion category | Useful starting point |
 |---|---|---|---|
-| [Novacel 4236](https://www.novacel-solutions.com/product/4236) | 60 µm | High | The 4236RET variant is listed for protection of the sheet underside |
-| [Novacel 4228 REF](https://www.novacel-solutions.com/product/4228-ref) | 100 µm | Very High | Broad stainless steel finish coverage for fibre and CO₂ laser cutting |
-| [Novacel 4318](https://www.novacel-solutions.com/product/4318) | 75 µm | Medium | The 4318REM variant is listed for glossy finishes on sheets below 1 mm |
-| [Nitto FIBERGUARD 511M10P Light](https://www.nitto.com/us/en/products/surface/spv_metal089/) | 100 µm total thickness | Medium | Stainless steel laser cutting up to 2 mm; check the heavy-forming restriction |
-| [POLIFILM PF584 C S](https://www.polifilm.com/content/uploads/Laser-Protection-Films_2023_EN.pdf) | 80 and 100 µm versions | High | Broad stainless steel finish coverage for fibre and CO₂ laser cutting |
+| Novacel 4236 | 60 µm | High | The 4236RET variant is listed for protection of the sheet underside |
+| Novacel 4228 REF | 100 µm | Very High | Broad stainless steel finish coverage for fibre and CO₂ laser cutting |
+| Novacel 4318 | 75 µm | Medium | The 4318REM variant is listed for glossy finishes on sheets below 1 mm |
+| Nitto FIBERGUARD 511M10P Light | 100 µm total thickness | Medium | Stainless steel laser cutting up to 2 mm; check the heavy-forming restriction |
+| POLIFILM PF584 C S | 80 and 100 µm versions | High | Broad stainless steel finish coverage for fibre and CO₂ laser cutting |
 
-A quotation may shorten a reference to “4228” or “PF584 (100).” Match it to the complete supplied product code before ordering. In particular, the underside and thin-sheet applications above refer to **4236RET** and **4318REM** in the [Novacel laser-film range](https://www.novacel-solutions.com/expertises/films-for-laser-cutting); the POLIFILM data refer to **PF584 C S**.
+A quotation may shorten a reference to “4228” or “PF584 (100).” Match it to the complete supplied product code before ordering. In particular, the underside and thin-sheet applications above refer to **4236RET** and **4318REM** in the Novacel laser-film range; the POLIFILM data refer to **PF584 C S**.
 
 Thickness and adhesion labels help identify a product. They do not provide a shared performance ranking across brands: Nitto reports total thickness, and “High” and “Medium” are each manufacturer's categories.
 
@@ -66,7 +66,7 @@ Specify the film on each face separately. A decorative front face and the unders
 
 **Nitto 511M10P Light is a candidate within that published thickness range.** Its technical sheet covers both fibre and CO₂ laser cutting. Two details affect the buying decision: Nitto advises against heavy forming because of possible visual imprints, and recommends waiting one week after lamination to reach ideal adhesion for laser cutting.
 
-That waiting period matters if your fabricator plans to laminate and cut immediately. Discuss the production schedule before choosing the film. These details are specific to the [511M10P technical sheet](https://www.nitto.com/us/en/others/products/group/file/datasheet/NBB_FIBERGUARD-511M10P-LIGHT_ENG.pdf).
+That waiting period matters if your fabricator plans to laminate and cut immediately. Discuss the production schedule before choosing the film. These details are specific to the 511M10P technical sheet.
 
 ## How Does the Surface Finish Change the Choice?
 
@@ -84,7 +84,7 @@ For [AFP-coated stainless steel](/surfaces/stainless-steel-afp-finish), include 
 
 Tell the supplier whether you use fibre or CO₂ laser cutting, the steel thickness, and what happens after cutting. A panel that is cut and lightly folded presents a different selection question from a part that will be deeply drawn.
 
-If heavy forming or deep drawing is involved, select for that operation as well. Nitto's restriction above is one concrete example; Novacel also offers a separate [deep-drawing film range](https://www.novacel-solutions.com/expertises/films-for-deep-drawing). Laser compatibility alone does not answer the forming question.
+If heavy forming or deep drawing is involved, select for that operation as well. Nitto's restriction above is one concrete example; Novacel also offers a separate deep-drawing film range. Laser compatibility alone does not answer the forming question.
 
 If you intend to peel the film before cutting, explain that too. Your selection can then focus on the handling, storage and removal stages the film will actually experience.
 
