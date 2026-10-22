@@ -99,4 +99,4 @@ This report covers market conditions during October 12–16, 2026, with Septembe
 
 The reporting period is October 12–16, 2026. Market quotations, inventory figures, export statistics and commentary are from the Jinling Metals report for that period; quotation units are retained as reported.
 
-The SCFI composite value and previous-period comparison were checked against the [Shanghai Shipping Exchange](https://www.sse.net.cn/index/singleIndex?indexType=scfi). Japan’s provisional anti-dumping duty rates and covered product scope are documented in the [Japan Ministry of Finance materials](https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20260623/kanb20260623siryo2-2.pdf) and the [China Trade Remedies Information notice](https://cacs.mofcom.gov.cn/article/ajycs/ckys/202608/188949.html).
+The SCFI composite value and previous-period comparison were checked against the Shanghai Shipping Exchange. Japan’s provisional anti-dumping duty rates and covered product scope are documented in the Japan Ministry of Finance materials and the China Trade Remedies Information notice.
