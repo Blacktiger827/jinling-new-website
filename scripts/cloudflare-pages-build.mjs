@@ -45,4 +45,6 @@ mkdirSync(rootPublicDir, { recursive: true });
 
 for (const fileName of ["sitemap.xml", "sitemap-0.xml", "robots.txt"]) {
   copyFileSync(join(sitePublicDir, fileName), join(rootPublicDir, fileName));
+  copyFileSync(join(sitePublicDir, fileName), join(siteOutDir, fileName));
+  copyFileSync(join(sitePublicDir, fileName), join(rootOutDir, fileName));
 }
