@@ -24,7 +24,10 @@ function getArticlesBySlugOrder(
 ) {
   return slugs
     .map((slug) => articles.find((article) => article.slug === slug))
-    .filter((article): article is GuideArticle => Boolean(article));
+    .filter((article): article is GuideArticle => Boolean(article))
+    .sort((articleA, articleB) =>
+      (articleB.publishedAt || "").localeCompare(articleA.publishedAt || "")
+    );
 }
 
 function getCategoryArticles(categoryId: string) {

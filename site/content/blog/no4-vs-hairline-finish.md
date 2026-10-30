@@ -47,6 +47,8 @@ Both may sit in a similar Ra range, often around 0.2-0.4 µm. The difference is 
 
 No.4 breaks light up. Hairline carries it. That is why hairline looks cleaner across a wide lobby wall, and why it also exposes a rotated panel or mismatched lot more quickly.
 
+For adjacent panels or repeat deliveries, also agree the [visual reference and comparison conditions](/knowledge-base/stainless-steel-finish-variation-between-batches) before ordering.
+
 ## When No.4 Is the Better Decision
 
 Choose No.4 when the surface will be used hard.

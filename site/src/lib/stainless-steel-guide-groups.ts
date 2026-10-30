@@ -28,6 +28,7 @@ export const stainlessSteelGuideCategorySections = [
     description:
       "Use these guides when surface appearance, protective film, welding, bending, cutting, forming, or post-processing risk matters.",
     articleSlugs: [
+      "stainless-steel-finish-variation-between-batches",
       "stainless-steel-protective-film-selection-guide",
       "2b-vs-ba-surface-finish",
       "no4-vs-hairline-finish",

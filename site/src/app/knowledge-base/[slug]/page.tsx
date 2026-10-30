@@ -32,6 +32,10 @@ const RELATED_OVERRIDES: Record<
   string,
   { title: string; slugs: string[] }
 > = {
+  "stainless-steel-finish-variation-between-batches": {
+    title: "Related Posts",
+    slugs: ["no4-vs-hairline-finish", "stainless-steel-protective-film-selection-guide"],
+  },
   "stainless-steel-protective-film-selection-guide": {
     title: "Related Posts",
     slugs: ["no4-vs-hairline-finish", "2b-vs-ba-surface-finish"],
