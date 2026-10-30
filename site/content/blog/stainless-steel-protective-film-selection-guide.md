@@ -76,6 +76,8 @@ For [8K mirror stainless steel](/surfaces/stainless-steel-8k-mirror-finish), exa
 
 For [No.4 brushed stainless steel](/surfaces/stainless-steel-no4-brushed-finish) and [hairline stainless steel](/surfaces/stainless-steel-hairline-finish), use a sample with the finish and grain direction you intend to buy. Check that the film stays attached through processing and that the surface appearance remains acceptable after removal.
 
+For repeat deliveries, agree how the uncovered steel should [match the retained surface reference](/knowledge-base/stainless-steel-finish-variation-between-batches).
+
 For [AFP-coated stainless steel](/surfaces/stainless-steel-afp-finish), include the actual coating in the trial. A manufacturer's broad stainless steel finish description does not settle compatibility with every coating system. Inspect both film adhesion and the coating after peeling.
 
 ![Stainless steel sheet and a Nitto-printed protective film roll on processing equipment](/images/blog/stainless-steel-protective-film/nitto-film-stainless-steel-processing.webp)
