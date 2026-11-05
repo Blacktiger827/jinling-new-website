@@ -42,10 +42,10 @@ export function getGuidePosterTitle(slug: string, title: string): ReactNode {
   if (slug === "choose-stainless-steel-supplier-china") {
     return (
       <>
-        <span className="block">How to Choose a</span>
-        <span className="mt-2 block text-[0.78em]">Stainless Steel Supplier</span>
-        <span className="mt-2 block text-[0.72em]">in China: Mills, Traders,</span>
-        <span className="mt-2 block text-[0.72em]">or Service Centers?</span>
+        <span className="block text-[0.65em] leading-[0.95] sm:text-[1em]">How to Choose a</span>
+        <span className="mt-2 block text-[0.52em] leading-[0.95] sm:text-[0.78em]">Stainless Steel Supplier</span>
+        <span className="mt-2 block text-[0.48em] leading-[0.95] sm:text-[0.72em]">in China: Mills, Traders,</span>
+        <span className="mt-2 block text-[0.48em] leading-[0.95] sm:text-[0.72em]">or Service Centers?</span>
       </>
     );
   }
