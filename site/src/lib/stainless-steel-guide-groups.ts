@@ -46,6 +46,7 @@ export const stainlessSteelGuideCategorySections = [
     description:
       "Review standards, tolerances, MTCs, inspection routes, export documents, supplier checks, and buying controls before an order is released.",
     articleSlugs: [
+      "choose-stainless-steel-supplier-china",
       "food-grade-stainless-steel-certified-or-labeled",
       "how-to-read-mill-test-certificate",
       "stainless-steel-samples-mtc-certificate-of-origin",
