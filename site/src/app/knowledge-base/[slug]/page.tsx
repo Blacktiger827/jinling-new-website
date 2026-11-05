@@ -32,6 +32,10 @@ const RELATED_OVERRIDES: Record<
   string,
   { title: string; slugs: string[] }
 > = {
+  "choose-stainless-steel-supplier-china": {
+    title: "Related Posts",
+    slugs: ["how-to-read-mill-test-certificate", "stainless-steel-samples-mtc-certificate-of-origin"],
+  },
   "stainless-steel-finish-variation-between-batches": {
     title: "Related Posts",
     slugs: ["no4-vs-hairline-finish", "stainless-steel-protective-film-selection-guide"],
