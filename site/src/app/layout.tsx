@@ -3,7 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { SITE_URL } from "@/lib/structured-data";
-import { AnalyticsConsent } from "@/components/analytics/AnalyticsConsent";
+import { BasicAnalytics } from "@/components/analytics/BasicAnalytics";
 
 export const metadata: Metadata = {
   title: {
@@ -75,7 +75,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
-        <AnalyticsConsent />
+        <BasicAnalytics />
       </body>
     </html>
   );

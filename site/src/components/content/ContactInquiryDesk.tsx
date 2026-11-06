@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { trackContactIntent } from "@/lib/analytics";
 
 const PHONE_DISPLAY = "+86-757-81637153";
 const PHONE_HREF = "tel:+8675781637153";
@@ -347,7 +346,6 @@ export function ContactInquiryDesk({
       `${selectedConfig.subject}${formState.company ? ` | ${formState.company}` : ""}`;
 
     setDraftPrepared(true);
-    trackContactIntent("inquiry_draft_prepared", "quote_form");
     window.location.href = buildMailto(email, subject, body);
   }
 
