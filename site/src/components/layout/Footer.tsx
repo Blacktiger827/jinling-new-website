@@ -3,6 +3,7 @@ import {
   productsByForm,
   productsBySurface,
 } from "@/lib/site-navigation";
+import { AnalyticsPreferencesButton } from "@/components/analytics/AnalyticsConsent";
 
 const resourceLinks = [
   { name: "Resource Hub", href: "/resources" },
@@ -174,6 +175,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Jinling Steel Co., Ltd. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-gray-500">
+            <AnalyticsPreferencesButton />
             <Link href="/contact" className="transition-colors hover:text-gray-300">
               Contact Us
             </Link>
