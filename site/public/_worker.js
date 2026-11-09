@@ -1,8 +1,10 @@
 const ASSET_EXTENSION = /\.(?:avif|bmp|css|csv|docx?|eot|gif|ico|jpe?g|js|json|map|mp3|mp4|ogg|otf|pdf|png|svg|ttf|txt|webm|webp|woff2?|xlsx?|xml|zip)$/i;
 const LEGACY_PAGE_EXTENSION = /\.(?:aspx?|html?|php)$/i;
 const SYSTEM_PATH = /^\/(?:_next|cdn-cgi)(?:\/|$)/;
-const GOOGLE_SITE_VERIFICATION_PATH = "/googlee13a9dcb0a5eaebc.html";
-const GOOGLE_SITE_VERIFICATION_BODY = "google-site-verification: googlee13a9dcb0a5eaebc.html\n";
+const GOOGLE_SITE_VERIFICATION_RESPONSES = new Map([
+  ["/googlee13a9dcb0a5eaebc.html", "google-site-verification: googlee13a9dcb0a5eaebc.html\n"],
+  ["/googlefe87bd278ecbddbd.html", "google-site-verification: googlefe87bd278ecbddbd.html"],
+]);
 
 function shouldRedirectMissingPage(request, url) {
   if (request.method !== "GET" && request.method !== "HEAD") return false;
@@ -18,8 +20,9 @@ const worker = {
       return Response.redirect(`https://www.jinlingmetals.com${url.pathname}${url.search}`, 301);
     }
 
-    if (url.pathname === GOOGLE_SITE_VERIFICATION_PATH) {
-      return new Response(request.method === "HEAD" ? null : GOOGLE_SITE_VERIFICATION_BODY, {
+    if (GOOGLE_SITE_VERIFICATION_RESPONSES.has(url.pathname)) {
+      const body = GOOGLE_SITE_VERIFICATION_RESPONSES.get(url.pathname);
+      return new Response(request.method === "HEAD" ? null : body, {
         headers: { "content-type": "text/html; charset=UTF-8" },
       });
     }
