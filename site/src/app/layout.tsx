@@ -4,6 +4,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { SITE_URL } from "@/lib/structured-data";
 import { BasicAnalytics } from "@/components/analytics/BasicAnalytics";
+import { ClarityAnalytics } from "@/components/analytics/ClarityAnalytics";
 
 export const metadata: Metadata = {
   title: {
@@ -76,6 +77,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <BasicAnalytics />
+        <ClarityAnalytics />
       </body>
     </html>
   );
