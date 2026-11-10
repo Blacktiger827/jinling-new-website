@@ -173,12 +173,15 @@ export function Footer() {
           <p className="text-xs text-gray-500">
             &copy; {new Date().getFullYear()} Jinling Steel Co., Ltd. All rights reserved.
           </p>
-          <div className="flex gap-6 text-xs text-gray-500">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-gray-500">
             <Link href="/contact" className="transition-colors hover:text-gray-300">
               Contact Us
             </Link>
             <Link href="/about" className="transition-colors hover:text-gray-300">
               About
+            </Link>
+            <Link href="/privacy-policy" className="transition-colors hover:text-gray-300">
+              Privacy Policy
             </Link>
           </div>
         </div>
