@@ -91,7 +91,7 @@ European and Mediterranean booking rates increased, while North American rates e
 
 ## What stainless steel buyers should watch
 
-The reporting period highlights three factors for procurement planning: whether raw material price weakness continues, whether lower mill output translates into sustained inventory reductions, and whether demand improves enough to support restocking. Domestic material prices, product specifications and destination freight should be assessed separately when comparing purchase options.
+The reporting period highlights three factors for procurement planning: whether raw material price weakness continues, whether lower mill output translates into sustained inventory reductions, and whether demand improves enough to support restocking. When comparing [stainless steel coil options](/products/stainless-steel-coil), confirm grade, thickness, width, finish and quantity on the same basis. Check [export packing and loading requirements](/solutions/capabilities/packaging-logistics) separately from destination freight.
 
 This report covers market conditions during October 12–16, 2026, with September trade statistics included as background. Prices and outlooks relate to their stated periods and are not current quotations.
 
