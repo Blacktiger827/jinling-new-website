@@ -1,15 +1,15 @@
 ---
-title: "Stainless Steel Prices, Inventory & Insights in China from August 10th to 14th 2026"
-seoTitle: "Stainless Steel Prices, Inventory & Insights in China from August 10th to 14th 2026 | Jinling Metals"
+title: "China Stainless Steel Prices Fall as 304 and 316L Weaken — August 10–14, 2026"
+seoTitle: "China Stainless Steel Prices Fall | August 10–14, 2026"
 description: "China stainless steel prices moved downward from August 10 to 14, 2026, as weak demand, lower futures, Tsingshan price cuts, nickel quota signals, and freight pressure shaped sourcing timing."
 author: "Jinling Steel Editorial Team"
 reviewedBy: "Jinling Steel Market Review Team"
 publishedAt: "2026-08-20"
 heroImage: "/images/insights/china-stainless-steel-prices-inventory-update-august-10-14-2026/cover.jpg"
 ---
-# Stainless Steel Prices, Inventory & Insights in China from August 10th to 14th 2026
+# China Stainless Steel Prices Fall as 304 and 316L Weaken — August 10–14, 2026
 
-From August 10 to August 14, the stainless steel market was generally downward. Early in the week, the East China coast was disrupted by rainstorms, restricting logistics shipments. Sluggish demand dragged down both futures and spot prices. On Thursday and Friday, the market weakened further: Tsingshan lowered the 300-series price limits by US$75/MT. The market went even gloomier.
+During August 10–14, 2026, stainless steel prices in China weakened as demand remained slow. The report recorded declines in 304 and 316L, while container freight rose on several routes. For overseas buyers, the material price and the delivery cost therefore needed to be assessed separately, with attention to mill origin, shipping route and shipment timing.
 
 The sharp drop in stainless steel spot prices compressed steel mill profits. Stainless steel mills had to put pressure on the raw materials side, reducing costs from suppliers of ferronickel and ferrochromium.
 
@@ -17,9 +17,11 @@ In the short term, production costs will still protect stainless steel prices fr
 
 ## Stainless Steel Futures and Spot Prices Both Decline
 
+Early in the week, the East China coast was disrupted by rainstorms, restricting logistics shipments. Sluggish demand dragged down both futures and spot prices. On Thursday and Friday, the market weakened further: Tsingshan lowered the 300-series price limits by US$75/MT.
+
 Last week, both stainless steel and Shanghai nickel futures generally fluctuated downward. As of the close on Friday, August 14, the main stainless steel contract closed at US$2,113/MT, with a cumulative weekly drop of US$82/MT, a decrease of 3.75%. The decline in futures was greater than in the spot market, widening the futures-spot basis to US$75.5/MT. The main Shanghai nickel contract closed at US$19,017/MT, a weekly drop of 2.62%.
 
-## Stainless Steel 304 Price Decline Expands to around US$75/MT
+## 304 Stainless Steel: Price Declines Vary by Mill Origin
 
 Stainless steel 304 prices fell under pressure, with the decline expanding to a range of US$22-US$75/MT. Among them, Yongjin prices fell by about US$75/MT, while the decline for TISCO origins was relatively smaller. Tsingshan Group has not yet issued the cold-rolled stainless steel 304 futures plate price, but its price limit policy has been cumulatively lowered by US$45-US$74/MT.
 
@@ -27,7 +29,7 @@ In the Wuxi market, for cold-rolled prices, the mainstream transaction quotation
 
 Regarding hot-rolled prices, the mainstream private 5-foot hot-rolled SS304 coil price was US$2,210/MT. TISCO 5-foot hot-rolled stainless steel was US$2,285/MT. In the Foshan market, private 4-foot cold-rolled stainless steel 304 was US$2,245/MT on a gross basis, and the 304 hot-rolled coil price was US$2,210/MT.
 
-## Stainless Steel 316L Mainstream Prices Drop US$45/MT
+## 316L Stainless Steel: Lower Spot Offers and Higher Supply
 
 Last week, stainless steel 316L spot prices trended downward, dropping by US$45/MT. In August, the supply of SS316L increased significantly, with growth in hot-rolled resources particularly prominent. Under the heavy loads of stock, coupled with continuous pressure on the futures market, Tsingshan lowered the stainless steel 316L agent price by US$45/MT, driving spot market prices to decline in tandem.
 
@@ -51,7 +53,7 @@ Indonesia's nickel mining quota policy remains the largest variable to the stain
 
 Until July, nickel ore mining had already used 53%-55% of the annual quota. In the second half of the year, the nickel ore supply will probably fall short. The raw material cost support for ferronickel smelters remains solid, and spot prices remain firm.
 
-## Sea Freight: China to South American Route Freight Rates Rise 14.1%
+## Container Freight: US and South American Routes Rise
 
 On August 14, the Shanghai Containerized Freight Index was 3,355.24 points, up 2.4% from the previous period.
 
@@ -75,7 +77,7 @@ The severity of the delays is equally concerning. Data shows that the average de
 
 Meanwhile, the latest industry advisory issued by DHL Global Forwarding shows that containers piled up at global ports have exceeded 3.7 million TEU.
 
-## Climate Is an Important Reason for Consumed Capacity
+## Weather Disruptions and Port Delays Reported in August
 
 High temperatures and droughts brought by extreme weather have caused the Panama Canal to tighten traffic restrictions again. The Panama Canal Authority announced on August 5 that, affected by continuously dropping water levels, it will tighten the maximum allowable draft for Neopanamax locks to 48 feet starting August 26, and further reduce it to 47.5 feet starting September 3, with these restrictions continuing until further notice. This is another tightening following the reduction to 49 feet on July 24. For container ships, every 1-foot reduction in draft means being forced to reduce cargo loads by hundreds of containers.
 
@@ -83,6 +85,12 @@ European inland transportation has also experienced capacity declines and port c
 
 In China, typhoons have continuously struck the southeast coast, causing port shutdowns. According to a report released by Linerlytica on August 11, affected by typhoons, over 2.4 million TEU of container ship capacity in North Asia experienced delays. Ningbo and Shanghai were the most heavily affected ports, and it is expected to take weeks to gradually clear the backlog of vessels.
 
+### Supplementary Shipping Update — August 17, 2026
+
 As of August 17, a week after the typhoon impacts ended, the average waiting time for vessels at Shanghai Port still exceeded 4 days. Maersk has continuously issued blank sailing notices, canceling originally scheduled calls at Shanghai Port for multiple voyages.
 
 Additionally, geopolitical risks have also driven up transportation costs. Since late July, Houthi forces have attacked a total of 8 Saudi oil tankers and intercepted and forced 29 Saudi oil tankers to turn back in the Red Sea and Arabian Sea.
+
+### Comparing Material Prices and Delivery Costs
+
+Use the grade-level figures above as historical market references, then compare [stainless steel coil specifications](/products/stainless-steel-coil), mill origin and quotation terms on the same basis. For an overseas order, confirm [export packing and loading requirements](/solutions/capabilities/packaging-logistics), freight validity and the intended sailing date separately. A lower material quotation alone does not establish a lower delivered cost.
